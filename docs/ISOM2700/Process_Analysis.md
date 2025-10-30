@@ -42,7 +42,11 @@ The flow unit is what is tracked through the process and generally defines the p
 - **Capacity**: The maximum amount a resource can produce in a given time period (e.g., 20 units/hour)
 - **Demand**: The amount of output the market wants from the entire process (e.g., we have orders for 25 units/hour).
 - **Implied Utilization:** A _calculation_ that shows the fraction of time a resource would need to work to _meet demand_ if it were the only constraint. It is **not limited to 100%**.
-$$\text{Implied Utilization}=\frac{\text{Demand Rate}}{\text{Capacity}}$$
+
+$$
+\text{Implied Utilization}=\frac{\text{Demand Rate}}{\text{Capacity}}
+$$
+
 - **Bottleneck**: The resource with the highest implied utilization
 	- If a resource has an implied utilization of 150%, it means that to meet demand, it would have to work at 150% of its capacity, which is impossible. It is clearly a constraint.\
 	- not necessarily the resource with the lowest capacity
@@ -50,8 +54,15 @@ $$\text{Implied Utilization}=\frac{\text{Demand Rate}}{\text{Capacity}}$$
 - **Flow Rate**: The actual rate at which the process produces finished units
 $$\text{Flow Rate}=\min(\text{ Demand Rate},\text{ Process Capacity })$$
 - **Utilization**: The fraction of time a resource is busy _actually producing output_ (e.g., 90% busy). This cannot exceed 100%.
-$$\text{Utilization}=\frac{\text{Flow Rate}}{\text{Capacity}}$$
-$$\text{Utilization}\leq \text{Implied Utilization}$$
+
+$$
+\text{Utilization}=\frac{\text{Flow Rate}}{\text{Capacity}}
+$$
+
+$$
+\text{Utilization}\leq \text{Implied Utilization}
+$$
+
 ```mermaid
 flowchart
 Capacity --> id1(Implied Utilization)
@@ -67,8 +78,13 @@ Bottleneck:
 - add up all the activities performed by each resource to compare
 
 ## Little's Law
-$$L=\lambda \times W$$
-$$\text{Work-in-process Inventory}=\text{Flow Rate}\times \text{Flow Time}$$
+$$
+L=\lambda \times W
+$$
+
+$$
+\text{Work-in-process Inventory}=\text{Flow Rate}\times \text{Flow Time}
+$$
 
 ## Inventory Buffer
 ![[Pasted image 20250922231150.png]]

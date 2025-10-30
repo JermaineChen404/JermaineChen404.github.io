@@ -169,6 +169,9 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 extra_css:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
@@ -178,3 +181,4 @@ extra_css:
   - mkdocs/css/no-footer.css
   # 无序列表符号自定义
   - mkdocs/css/unordered-list-symbols.css
+  - https://unpkg.com/katex@0/dist/katex.min.css

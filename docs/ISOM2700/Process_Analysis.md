@@ -78,13 +78,9 @@ Bottleneck:
 - add up all the activities performed by each resource to compare
 
 ## Little's Law
-$$
-L=\lambda \times W
-$$
+$$L=\lambda \times W$$
 
-$$
-\text{Work-in-process Inventory}=\text{Flow Rate}\times \text{Flow Time}
-$$
+$$\text{Work-in-process Inventory}=\text{Flow Rate}\times \text{Flow Time}$$
 
 ## Inventory Buffer
 ![[Pasted image 20250922231150.png]]
@@ -94,9 +90,8 @@ To reduce inventory buffer
 - improve the process capacity
 
 ![[Pasted image 20250922231249.png]]
-$$
-k=\begin{cases}
+
+$$k=\begin{cases}
 \text{Demand}-\text{Process Capacity}\quad (\text{Demand}>\text{Process Capacity})\\
 -\text{Process Capacity}\quad (\text{Demand}<\text{Process Capacity})
-\end{cases}
-$$
+\end{cases}$$

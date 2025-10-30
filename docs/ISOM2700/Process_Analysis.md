@@ -94,7 +94,9 @@ To reduce inventory buffer
 - improve the process capacity
 
 ![[Pasted image 20250922231249.png]]
-$$k=\begin{cases}
+$$
+k=\begin{cases}
 \text{Demand}-\text{Process Capacity}\quad (\text{Demand}>\text{Process Capacity})\\
 -\text{Process Capacity}\quad (\text{Demand}<\text{Process Capacity})
-\end{cases}$$
+\end{cases}
+$$

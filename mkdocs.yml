@@ -110,7 +110,6 @@ plugins:
       lang:
         - zh
         - en
-        - ja
   # [给单篇文章添加标签]
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#meta.tags

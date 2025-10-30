@@ -157,6 +157,8 @@ markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/footnotes/
   - footnotes
   - nl2br
+  - obsidian_callouts
+  - obsidian_media_mkdocs
 extra_javascript:
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex

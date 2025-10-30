@@ -52,16 +52,14 @@ $$
 	- not necessarily the resource with the lowest capacity
 - **Process Capacity**: The capacity of the bottleneck resource
 - **Flow Rate**: The actual rate at which the process produces finished units
+
 $$\text{Flow Rate}=\min(\text{ Demand Rate},\text{ Process Capacity })$$
+
 - **Utilization**: The fraction of time a resource is busy _actually producing output_ (e.g., 90% busy). This cannot exceed 100%.
 
-$$
-\text{Utilization}=\frac{\text{Flow Rate}}{\text{Capacity}}
-$$
+$$\text{Utilization}=\frac{\text{Flow Rate}}{\text{Capacity}}$$
 
-$$
-\text{Utilization}\leq \text{Implied Utilization}
-$$
+$$\text{Utilization}\leq \text{Implied Utilization}$$
 
 ```mermaid
 flowchart

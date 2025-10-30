@@ -21,6 +21,9 @@ nav:
   - 2025 Fall:
     - ISOM2700 Operation Management:
       - Process Analysis: ISOM2700/Process_Analysis.md
+      - Quality Management: ISOM2700/Quality_Management.md
+      - Capacity Planning: ISOM2700/Capacity_Planning.md
+      - Service Management: ISOM2700/Service_Management.md
 # [UI]
 # [top]
 theme:

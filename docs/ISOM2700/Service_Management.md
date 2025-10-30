@@ -1,3 +1,4 @@
+# Service Management
 Given random variable $L_{n}$ in queue, $A_{n}$ of arrivals, and $C_{n}$ of capacity,
 
 $$L_{n}=\max(A_{n}+L_{n-1}-C_{n},0)$$
@@ -8,8 +9,8 @@ Queues exist due to
 - variability of service time
 	- resources breakdown/maintenance
 
-# Queuing Model
-## M/M/s Model
+## Queuing Model
+### M/M/s Model
 **Kendall's notation**：
 
 ![[Pasted image 20251020180503.png]]
@@ -33,7 +34,7 @@ Output of the queue (System performance measures)
 - Probability of delay
 - Utilization of the server $\rho$
 
-## Service Utilization $\rho$
+### Service Utilization $\rho$
 ![[Pasted image 20251020180838.png]]
 Given the assumption $\lambda<s\mu$,
 
@@ -41,18 +42,18 @@ $$\rho=\frac{\lambda}{s\mu}<100\%$$
 
 Server utilization is the average fraction of time a server is busy.
 
-## Little‘s Law Revisited (1 Server)
+### Little‘s Law Revisited (1 Server)
 Recalling the [[S2&3 - Process Analysis#Little's Law|Little's Law]],
 
 ![[Pasted image 20251020181830.png]]
 
-## Random Variable
+### Random Variable
 ![[Pasted image 20251020182233.png]]
-### Random Service Time
+#### Random Service Time
 ![[Pasted image 20251020182446.png]]
-### Random Number of Arrivals
+#### Random Number of Arrivals
 ![[Pasted image 20251020182538.png]]
-### Number vs. Time
+#### Number vs. Time
 A process that has exponentially distributed inter-arrival/service times is, by definition, a **Poisson Process**.
 
 ![[Pasted image 20251020184206.png]]
@@ -68,17 +69,17 @@ Define a new random variable $N_{t}$ representing the number of arrivals, thus
 
 $$N_{t}\sim \text{Poisson}(\lambda t)$$
 
-## Formulas for M/M/1 Queuing Model
+### Formulas for M/M/1 Queuing Model
 ![[Pasted image 20251020185437.png]]
 ![[Pasted image 20251020185449.png]]
 
-## Formulas for M/M/s Queuing Model
+### Formulas for M/M/s Queuing Model
 ![[Pasted image 20251020185543.png]]
 
-## Values of $L_{q}$
+### Values of $L_{q}$
 ![[Pasted image 20251020185617.png]]
 
-## Queuing System Cost Tradeoff
+### Queuing System Cost Tradeoff
 - $C_{w}=$ Cost of waiting per customer per hour
 - $L_{q}=$ Mean number of waiting customers
 - $C_{s}=$ Cost of service per server per hour
@@ -88,9 +89,9 @@ $$\text{Total Cost}=C_{s}S+C_{w}L_{q}$$
 
 ![[Pasted image 20251020185855.png]]
 
-## Pooling
+### Pooling
 Pooling resources is more efficient
 
-### Limitations to Pooling
+#### Limitations to Pooling
 
-## Monte-Carlo Simulation
+### Monte-Carlo Simulation

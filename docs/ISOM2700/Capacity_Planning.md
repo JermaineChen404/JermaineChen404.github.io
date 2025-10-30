@@ -1,11 +1,12 @@
+# Capacity Planning
 determine the production capacity to meet uncertain demand
-# Decision Tree Method
+## Decision Tree Method
 ![[Pasted image 20251009145929.png]]
-## Value of Perfect Information
+### Value of Perfect Information
 ![[Pasted image 20251009150339.png]]
 ![[Pasted image 20251009150349.png]]
 
-# Linear Programming Method
+## Linear Programming Method
 Both the objective function and the constraints are linear with respect to decision variables
 
 ![[Pasted image 20251009154631.png]]
@@ -18,7 +19,7 @@ Necessary conditions for linear function:
 
 A linear constraint requires that the expressions involved are linear functions
 
-## Graphical Method
+### Graphical Method
 for 2 variable only
 
 ![[Pasted image 20251009160813.png]]
@@ -64,7 +65,7 @@ $$SP_{i}>0\Rightarrow S_{i}=0\text{ (binding)}$$
 ==But The opposites do not hold==
 
 ![[Pasted image 20251009230759.png]]
-## Solving LP with Excel Solver
+### Solving LP with Excel Solver
 1. Construct a spreadsheet as below
 
 ![[Pasted image 20251009220836.png]]
@@ -75,13 +76,13 @@ $$SP_{i}>0\Rightarrow S_{i}=0\text{ (binding)}$$
 
 3. Interpret the reports
 
-### Answer Report
+#### Answer Report
 
 ![[Pasted image 20251009223146.png]]
 
-## Sensitivity Analysis
+### Sensitivity Analysis
 How will the optimal objective value change if the right hand side (RHS) of some constraint changes?
-### Sensitivity Report
+#### Sensitivity Report
 
 ![[Pasted image 20251009223234.png]]
 
@@ -93,14 +94,14 @@ How will the optimal objective value change if the right hand side (RHS) of some
 |**Allowable Increase**|Maximum amount you can **increase** the coefficient without changing the optimal solution|
 |**Allowable Decrease**|Maximum amount you can **decrease** the coefficient without changing the optimal solution|
 
-### Changes in Right-Hand Side
+#### Changes in Right-Hand Side
 $$\Delta \text{Optimal Objective}=\Delta RHS \times \text{Shadow Price}$$
 
 where $\Delta \text{RHS}\leq\text{allowable changes}$.
 
 It is a changes in the feasible region.
 
-### Changes in Objective Coefficients
+#### Changes in Objective Coefficients
 $$\Delta \text{Optimal Objective}=0$$
 
 as long as $\Delta \text{coefficient}\leq \text{allowable changes}$

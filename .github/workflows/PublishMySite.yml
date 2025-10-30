@@ -1,41 +1,18 @@
 name: publish site
-
-on:
-  push:
-    branches: [ main ]
-
-permissions:
-  contents: write
-
-jobs:
+on: # 在什么时候触发工作流
+  push: # 在从本地main分支被push到GitHub仓库时
+    branches:
+      - main
+  pull_request: # 在main分支合并别人提的pr时
+    branches:
+      - main
+jobs: # 工作流的具体内容
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # 创建一个新的云端虚拟机 使用最新Ubuntu系统
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v2 # 先checkout到main分支
+      - uses: actions/setup-python@v2 # 再安装Python3和相关环境
         with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install mkdocs mkdocs-material
-
-      - name: Build site
-        run: mkdocs build --clean
-
-      - name: Add .nojekyll to output
-        run: |
-          echo "Prevent Jekyll processing" > site/.nojekyll
-
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          publish_branch: gh-pages
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          python-version: 3.x
+      - run: pip install mkdocs-material # 使用pip包管理工具安装mkdocs-material
+      - run: mkdocs gh-deploy --force # 使用mkdocs-material部署gh-pages分支

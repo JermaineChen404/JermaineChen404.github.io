@@ -27,6 +27,7 @@ The flow unit is what is tracked through the process and generally defines the p
 ### Tool: Gantt Chart
 #### Example
 ![[Pasted image 20250918154502.png]]
+
 - Flow time: 10 min
 - Process capacity: $\frac{1}{4}=0.25$ unit per min
 	- worker B takes the longest time
@@ -35,8 +36,8 @@ The flow unit is what is tracked through the process and generally defines the p
 ##### Tighter Arrangement
 ![[Pasted image 20250918154928.png]]
 > A worse scheduling with higher work-in-process inventory
----
-==Gantt chart does not work well for complex process==
+
+Gantt chart does not work well for complex process
 ## Process Analysis
 ### Concept
 

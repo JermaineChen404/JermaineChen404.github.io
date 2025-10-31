@@ -1,4 +1,9 @@
-# Service Management
+# Service Management: Queuing Model
+Service management focus on the buffer station in a process (queue).
+
+![[Pasted image 20251031025243.png]]
+
+
 Given random variable $L_{n}$ in queue, $A_{n}$ of arrivals, and $C_{n}$ of capacity,
 
 $$L_{n}=\max(A_{n}+L_{n-1}-C_{n},0)$$
@@ -9,8 +14,9 @@ Queues exist due to
 - variability of service time
 	- resources breakdown/maintenance
 
-## Queuing Model
-### M/M/s Model
+![[Pasted image 20251031025719.png]]
+
+## M/M/s Model
 **Kendall's notation**：
 
 ![[Pasted image 20251020180503.png]]
@@ -18,10 +24,8 @@ Queues exist due to
 Markovian/Markovian/# of servers
 
 Input of the queue
-- Exponential inter-arrival time: arrival rate $=\lambda$
-	- customer/period
-- Exponential service time: service rate *at each server* $=\mu$
-	- customer/period
+- Exponential inter-arrival time: arrival rate $=\lambda$ (customers/period)
+- Exponential service time: service rate *at each server* $=\mu$ (customer/period)
 - Number of servers $=s$
 - Assumption:
 	- one queue
@@ -34,26 +38,38 @@ Output of the queue (System performance measures)
 - Probability of delay
 - Utilization of the server $\rho$
 
-### Service Utilization $\rho$
+## Service Utilization $\rho$
 ![[Pasted image 20251020180838.png]]
-Given the assumption $\lambda<s\mu$,
-
-$$\rho=\frac{\lambda}{s\mu}<100\%$$
 
 Server utilization is the average fraction of time a server is busy.
 
-### Little‘s Law Revisited (1 Server)
+Given the assumption $\lambda<s\mu$,
+
+$$\text{Utilization}=\rho=\frac{\text{Flow Rate}}{\text{Capacity}}=\frac{\lambda}{s\mu}<100\%$$
+
+A queue is stable when $\rho<1$
+
+## Little‘s Law Revisited (1 Server)
 Recalling the [[S2&3 - Process Analysis#Little's Law|Little's Law]],
 
-![[Pasted image 20251020181830.png]]
+$$\text{Work-in-process inventory}=\text{Flow rate}\times \text{Flow time}$$
 
-### Random Variable
-![[Pasted image 20251020182233.png]]
-#### Random Service Time
+In a queue specifically,
+
+$$\text{Average \# in system}=\min(\lambda,\mu)\times \text{Average waiting/service time}$$
+
+![[Pasted image 20251020181830.png]]
+## Modeling Random Arrivals
+### Random Service Time
 ![[Pasted image 20251020182446.png]]
-#### Random Number of Arrivals
+### Random Number of Arrivals
 ![[Pasted image 20251020182538.png]]
-#### Number vs. Time
+### Number vs. Time
+Poisson Arrival Process:
+- random arrival
+- independent of one another
+- at the same average rate
+
 A process that has exponentially distributed inter-arrival/service times is, by definition, a **Poisson Process**.
 
 ![[Pasted image 20251020184206.png]]
@@ -69,17 +85,17 @@ Define a new random variable $N_{t}$ representing the number of arrivals, thus
 
 $$N_{t}\sim \text{Poisson}(\lambda t)$$
 
-### Formulas for M/M/1 Queuing Model
+## Formulas for M/M/1 Queuing Model
 ![[Pasted image 20251020185437.png]]
 ![[Pasted image 20251020185449.png]]
 
-### Formulas for M/M/s Queuing Model
+## Formulas for M/M/s Queuing Model
 ![[Pasted image 20251020185543.png]]
 
-### Values of $L_{q}$
+## Values of $L_{q}$
 ![[Pasted image 20251020185617.png]]
 
-### Queuing System Cost Tradeoff
+## Queuing System Cost Tradeoff
 - $C_{w}=$ Cost of waiting per customer per hour
 - $L_{q}=$ Mean number of waiting customers
 - $C_{s}=$ Cost of service per server per hour
@@ -89,9 +105,54 @@ $$\text{Total Cost}=C_{s}S+C_{w}L_{q}$$
 
 ![[Pasted image 20251020185855.png]]
 
-### Pooling
-Pooling resources is more efficient
+## Pooling
+### Common Queue vs. Separate Queues
+![[Pasted image 20251031164958.png]]
+![[Pasted image 20251031165153.png]]
 
-#### Limitations to Pooling
+Pooling resources is more efficient:
+- Same utilization $\rho$
+- Less waiting time in common queue
 
-### Monte-Carlo Simulation
+### Limitations to Pooling
+- A longer queue could annoy customers
+- Pooling requires well-rounded workers/servers
+	- higher training/development cost
+- customer-server relationship
+	- customers could prefer choosing instead of being assigned a server
+## Queuing Model with General Inputs: Monte-Carlo Simulation
+![[Pasted image 20251031170616.png]]
+### Random Variable
+![[Pasted image 20251020182233.png]]
+### Exponential Random Variable
+Given $X\sim \text{Exponential}(\mu)$,
+
+$$X=-\frac{1}{\mu}\ln(U)$$
+
+where $U\sim \text{Uniform}(0,1)$. 
+
+The exponential distribution with rate parameter $\mu\geq 0$ has the cumulative distribution function (CDF):
+
+$$F(x)=1-e^{-\mu x}$$
+
+### Identify Relationship
+![[Pasted image 20251031170507.png]]
+
+### Simulate General Queuing Model
+![[Pasted image 20251031171019.png]]
+
+![[Pasted image 20251031171038.png]]
+
+## Psychology of Waiting
+- Unoccupied time feels longer
+	- divert customers' attention in queue
+- Pre-process waiting feels longer
+	- give customers indication that their request has been accepted and the service process has begun
+- Unexplained waiting feels longer
+	- provide real reasons for keeping customers waiting
+- Unfair waiting feels longer
+	- ensure a fair waiting system (FCFS)
+- Uncertain waiting feels longer
+	- inform and even surprise customer with shorter waiting time
+- Solo waiting feels longer
+	- encourage interaction in the waiting environment

@@ -9,6 +9,7 @@ Given random variable $L_{n}$ in queue, $A_{n}$ of arrivals, and $C_{n}$ of capa
 $$L_{n}=\max(A_{n}+L_{n-1}-C_{n},0)$$
 
 Queues exist due to
+
 - variability of arrival process
 	- random input (arrival)
 - variability of service time
@@ -24,6 +25,7 @@ Queues exist due to
 Markovian/Markovian/# of servers
 
 Input of the queue
+
 - Exponential inter-arrival time: arrival rate $=\lambda$ (customers/period)
 - Exponential service time: service rate *at each server* $=\mu$ (customer/period)
 - Number of servers $=s$
@@ -33,6 +35,7 @@ Input of the queue
 	- $\lambda<s\mu$
 
 Output of the queue (System performance measures)
+
 - Average number of customers in the queue $L_{q}$ or in the system $L$
 - Average time spent in the queue $W_{q}$ or in the system $W$
 - Probability of delay
@@ -66,6 +69,7 @@ $$\text{Average \# in system}=\min(\lambda,\mu)\times \text{Average waiting/serv
 ![[Pasted image 20251020182538.png]]
 ### Number vs. Time
 Poisson Arrival Process:
+
 - random arrival
 - independent of one another
 - at the same average rate
@@ -111,6 +115,7 @@ $$\text{Total Cost}=C_{s}S+C_{w}L_{q}$$
 ![[Pasted image 20251031165153.png]]
 
 Pooling resources is more efficient:
+
 - Same utilization $\rho$
 - Less waiting time in common queue
 

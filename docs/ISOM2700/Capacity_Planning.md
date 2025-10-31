@@ -14,6 +14,7 @@ Both the objective function and the constraints are linear with respect to decis
 ![[Pasted image 20251009154614.png]]
 
 Necessary conditions for linear function:
+
 - $f(x+y)=f(x)+f(y)$
 - $f(cx)=cf(x)$
 
@@ -23,6 +24,7 @@ A linear constraint requires that the expressions involved are linear functions
 for 2 variable only
 
 ![[Pasted image 20251009160813.png]]
+
 - draw the feasible region by the constraints
 	- $k_{1}x+k_{2}y\leq C$
 		- $y\leq -\frac{k_{1}}{k_{2}}x+\frac{C}{k_{2}}$
@@ -32,18 +34,21 @@ for 2 variable only
 		- Therefore, the Z is maximized when the line reach the largest y-intercept
 
 Binding constraints:
+
 - $LHS=RHS$
 - $Slack=0$
 - limit the improvement in the objective function
 - e.g., constraint 1 and 2
 
 Non-binding constraints
+
 - $LHS<RHS$
 - $Slack>0$
 - do not limit improvement
 - e.g., constraint 3
 
 Idle time: any period when a resource is ready but is not being productive
+
 - represent a cost without generating any output
 - non-binding constraints have idle time
 	- e.g., constraint 3 has 50 min of idle time ($B_{\text{constraint 3}}-B_{\text{optimal}}$)

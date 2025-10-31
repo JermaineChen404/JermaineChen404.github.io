@@ -14,10 +14,12 @@
 	- e.g., unskilled workers, poor material
 ### Implications
 Only natural variations
+
 - the process is in statistical control, forming a stable distribution, and therefore predictable
 - Strategy: do nothing, leave it alone
 
 Only assignable variations
+
 - not stable and predictable
 - Strategy: respond accordingly
 

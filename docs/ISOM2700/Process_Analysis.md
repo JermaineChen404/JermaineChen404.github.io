@@ -73,6 +73,7 @@ id3 --> Utilization
 ```
 ### Law of the Minimum
 Bottleneck: 
+
 - determines the capacity of the entire process
 - add up all the activities performed by each resource to compare
 
@@ -85,6 +86,7 @@ $$\text{Work-in-process Inventory}=\text{Flow Rate}\times \text{Flow Time}$$
 ![[Pasted image 20250922231150.png]]
 
 To reduce inventory buffer
+
 - reduce the demand rate
 - improve the process capacity
 

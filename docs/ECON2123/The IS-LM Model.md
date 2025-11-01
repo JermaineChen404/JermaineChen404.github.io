@@ -141,22 +141,22 @@ flowchart LR
 ### Effects on Investment
 ```mermaid
 flowchart LR
-	6(Monetray Policy) -->|+|7(Output)
-	6 -->|--| 8(Interest rate)
-	7 -->|+| 9(Sales)
-	9 -->|+| 10(Investment)
-	6 -->|+| 10
-	8 -->|--| 10
+	6(Monetray Policy) -->|positive|7(Output)
+	6 -->|negative| 8(Interest rate)
+	7 -->|positive| 9(Sales)
+	9 -->|overall positive| 10(Investment)
+	6 -->|positive| 10
+	8 -->|negative| 10
 ```
 
 ```mermaid
 flowchart LR
-	1(Fiscal policy) -->|+| 2(Output)
-	2 -->|+| 3(Sales)
-	3 -->|+| 4(Investment)
-	1 -->|Overall Ambiguous|4
-	1 -->|+| 5(Interest rate)
-	5 -->|--| 4
+	1(Fiscal policy) -->|positive| 2(Output)
+	2 -->|positive| 3(Sales)
+	3 -->|positive| 4(Investment)
+	1 -->|overall ambiguous|4
+	1 -->|positive| 5(Interest rate)
+	5 -->|negative| 4
 ```
 ## Policy Mix
 Monetary-fiscal policy mix

@@ -14,3 +14,32 @@ This website primarily contains my course notes and random blogs that I feel wor
 ---
 ## About me
 I am a year 2 student studying in School of Business and Management, Hong Kong University of Science and Technology. You can find my [Github](https://github.com/JermaineChen404) and [LinkedIn](https://www.linkedin.com/in/hejian-chen-b4945a35b/) at the footnote.
+
+## Workflow
+Here is the workflow of this website for those whom may be interested in:
+
+All of the contents are written in **Markdown**. I primarily use [Obsidian](https://obsidian.md/) to edit and manage my notes since it has a vibrant community and can be easily synced across platforms.
+
+>[!warning] Reminder
+> Obsidian supports some special markdown syntaxes that might be invalid elsewhere. My solution is to use standard Markdown if possible; otherwise, additional plugins are needed.
+
+The website is built with [MkDocs](https://www.mkdocs.org/). Workload is greatly simplified since it can generate static sites based on Markdown files smoothly. [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/) is used as the theme.
+
+The website is published via [GitHub Pages](https://docs.github.com/en/pages). Therefore, the website will be updated once I edit and commit.
+
+The structure is:
+
+```
+$ tree -a
+.
+├── .obsidian
+├── JermaineChen404.github.io
+	├── .github
+	|   ├── .DS_Store
+	|   └── workflows
+	|       └── PublishMySite.yml
+	├── docs
+	|   └── index.md
+	└── mkdocs.yml
+```
+

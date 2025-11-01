@@ -1,4 +1,4 @@
-# Forward and Future Contracts
+# Forward and Futures Contracts
 ## Forward contracts
 > [!Definition] Forward price $F_{0,T}$:
 > the price set to ensure that the value of the forward contract equals zero for both parties at the inception of the contract

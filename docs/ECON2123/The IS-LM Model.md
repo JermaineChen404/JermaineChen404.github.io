@@ -141,7 +141,7 @@ flowchart LR
 ### Effects on Investment
 ```mermaid
 flowchart LR
-	6(Monetray Policy) -->|++|7(Output)
+	6(Monetray Policy) -->|+|7(Output)
 	6 -->|--| 8(Interest rate)
 	7 -->|++| 9(Sales)
 	9 -->|++| 10(Investment)

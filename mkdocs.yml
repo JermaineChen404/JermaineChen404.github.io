@@ -29,6 +29,14 @@ nav:
       - 2 The Goods Market: ECON2123/The Goods Market.md
       - 3 Financial Markets: ECON2123/Financial Markets.md
       - 4 The IS-LM Model: ECON2123/The IS-LM Model.md
+    - FINA3203 Derivative Securities:
+      - 1 Intro to Derivative: FINA3203/Intro to Derivative.md
+      - 2 Forward and Futures Contracts: FINA3203/Forward and Futures Contracts.md
+      - 3 Forwards and Futures on Commodities: FINA3203/Forwards and Futures on Commodities.md
+      - 4 Forwards and Futures on Currencies: FINA3203/Forwards and Futures on Currencies.md
+      - 5 Forwards and Futures on Interest Rates: FINA3203/Forwards and Futures on Interest Rates.md
+      - 6 Swaps: FINA3203/Swaps.md
+      - 7 Options: FINA3203/Options.md
 # [UI]
 # [top]
 theme:

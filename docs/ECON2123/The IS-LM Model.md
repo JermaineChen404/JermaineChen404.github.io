@@ -144,8 +144,8 @@ flowchart LR
 	6(Monetray Policy) -->|positive|7(Output)
 	6 -->|negative| 8(Interest rate)
 	7 -->|positive| 9(Sales)
-	9 -->|overall positive| 10(Investment)
-	6 -->|positive| 10
+	9 -->|positive| 10(Investment)
+	6 -->|overall positive| 10
 	8 -->|negative| 10
 ```
 

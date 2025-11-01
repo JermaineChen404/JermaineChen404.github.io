@@ -1,7 +1,7 @@
 # Service Management: Queuing Model
 Service management focus on the buffer station in a process (queue).
 
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251031025243.png]]
+![[attachments/Pasted image 20251031025243.png]]
 
 
 Given random variable $L_{n}$ in queue, $A_{n}$ of arrivals, and $C_{n}$ of capacity,
@@ -15,12 +15,12 @@ Queues exist due to
 - variability of service time
 	- resources breakdown/maintenance
 
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251031025719.png]]
+![[attachments/Pasted image 20251031025719.png]]
 
 ## M/M/s Model
 **Kendall's notation**：
 
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020180503.png]]
+![[attachments/Pasted image 20251020180503.png]]
 
 Markovian/Markovian/# of servers
 
@@ -42,7 +42,7 @@ Output of the queue (System performance measures)
 - Utilization of the server $\rho$
 
 ## Service Utilization $\rho$
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020180838.png]]
+![[attachments/Pasted image 20251020180838.png]]
 
 Server utilization is the average fraction of time a server is busy.
 
@@ -61,12 +61,12 @@ In a queue specifically,
 
 $$\text{Average \# in system}=\min(\lambda,\mu)\times \text{Average waiting/service time}$$
 
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020181830.png]]
+![[attachments/Pasted image 20251020181830.png]]
 ## Modeling Random Arrivals
 ### Random Service Time
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020182446.png]]
+![[attachments/Pasted image 20251020182446.png]]
 ### Random Number of Arrivals
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020182538.png]]
+![[attachments/Pasted image 20251020182538.png]]
 ### Number vs. Time
 Poisson Arrival Process:
 
@@ -76,8 +76,8 @@ Poisson Arrival Process:
 
 A process that has exponentially distributed inter-arrival/service times is, by definition, a **Poisson Process**.
 
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020184206.png]]
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020184219.png]]
+![[attachments/Pasted image 20251020184206.png]]
+![[attachments/Pasted image 20251020184219.png]]
 
 Let the random variable $T$ represent the inter-arrival time, we state that
 
@@ -90,14 +90,14 @@ Define a new random variable $N_{t}$ representing the number of arrivals, thus
 $$N_{t}\sim \text{Poisson}(\lambda t)$$
 
 ## Formulas for M/M/1 Queuing Model
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020185437.png]]
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020185449.png]]
+![[attachments/Pasted image 20251020185437.png]]
+![[attachments/Pasted image 20251020185449.png]]
 
 ## Formulas for M/M/s Queuing Model
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020185543.png]]
+![[attachments/Pasted image 20251020185543.png]]
 
 ## Values of $L_{q}$
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020185617.png]]
+![[attachments/Pasted image 20251020185617.png]]
 
 ## Queuing System Cost Tradeoff
 - $C_{w}=$ Cost of waiting per customer per hour
@@ -107,12 +107,12 @@ $$N_{t}\sim \text{Poisson}(\lambda t)$$
 
 $$\text{Total Cost}=C_{s}S+C_{w}L_{q}$$
 
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020185855.png]]
+![[attachments/Pasted image 20251020185855.png]]
 
 ## Pooling
 ### Common Queue vs. Separate Queues
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251031164958.png]]
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251031165153.png]]
+![[attachments/Pasted image 20251031164958.png]]
+![[attachments/Pasted image 20251031165153.png]]
 
 Pooling resources is more efficient:
 
@@ -126,9 +126,9 @@ Pooling resources is more efficient:
 - customer-server relationship
 	- customers could prefer choosing instead of being assigned a server
 ## Queuing Model with General Inputs: Monte-Carlo Simulation
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251031170616.png]]
+![[attachments/Pasted image 20251031170616.png]]
 ### Random Variable
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251020182233.png]]
+![[attachments/Pasted image 20251020182233.png]]
 ### Exponential Random Variable
 Given $X\sim \text{Exponential}(\mu)$,
 
@@ -141,12 +141,12 @@ The exponential distribution with rate parameter $\mu\geq 0$ has the cumulative 
 $$F(x)=1-e^{-\mu x}$$
 
 ### Identify Relationship
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251031170507.png]]
+![[attachments/Pasted image 20251031170507.png]]
 
 ### Simulate General Queuing Model
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251031171019.png]]
+![[attachments/Pasted image 20251031171019.png]]
 
-![[Ust_Note/yr2_Fall/ISOM2700/attachments/Pasted image 20251031171038.png]]
+![[attachments/Pasted image 20251031171038.png]]
 
 ## Psychology of Waiting
 - Unoccupied time feels longer

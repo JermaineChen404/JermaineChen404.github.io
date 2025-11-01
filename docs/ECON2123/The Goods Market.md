@@ -100,6 +100,7 @@ We also assume $G$ and $T$ exogenous but with different reason from that of inve
 - no need to use $\bar{T}$ and $\bar{G}$ since T and G are almost always exogenous
 ## The Determination of Equilibrium Output
 $$Z\equiv c_{0}+c_{1}(Y-T)+\bar{I}+G$$
+
 Assume no inventory investment, **equilibrium in the goods market** requires that production be equal to the demand for goods:
 
 $$Y=Z=C+I+G$$

@@ -141,25 +141,22 @@ flowchart LR
 ### Effects on Investment
 ```mermaid
 flowchart TD
-
-subgraph Monetary Policy
 	6(Monetray Policy) -->|++|7(Output)
 	6 -->|--| 8(Interest rate)
 	7 -->|++| 9(Sales)
 	9 -->|++| 10(Investment)
 	6 -->|++| 10
 	8 -->|--| 10
-end
+```
 
-subgraph Fiscal Policy
+```mermaid
+flowchart TD
 	1(Fiscal policy) -->|++| 2(Output)
 	2 -->|++| 3(Sales)
 	3 -->|++| 4(Investment)
 	1 -->|Overall Unclear |4
 	1 -->|++| 5(Interest rate)
 	5 -->|--| 4
-
-end
 ```
 ## Policy Mix
 Monetary-fiscal policy mix

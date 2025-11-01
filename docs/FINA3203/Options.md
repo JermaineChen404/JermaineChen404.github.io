@@ -1,4 +1,4 @@
-# Options
+# Intro to Options
 
 > [!NOTE] Definition
 > A option gives its holder the right, but not the obligation, to buy or sell a given asset (the underlying) for a pre-specified price (the strike price) at a pre-specified date (the maturity date). The right to buy is a call option, the right to sell is a put option.

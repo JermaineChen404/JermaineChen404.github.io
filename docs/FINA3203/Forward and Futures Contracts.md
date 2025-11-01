@@ -54,9 +54,9 @@ $$F_{0,T}=S_{0}\times e^{r_{0}T}$$
 
 There are three products in the market at time 0
 
-- a forward contract with ==market forward price $F_{0,T}$== 
--  the underlying with ==current market price $S_{0}$==
-- zero-coupon bonds with ==interest rate $r_{0}$==
+- a forward contract with market forward price $F_{0,T}$=
+-  the underlying with current market price $S_{0}$
+- zero-coupon bonds with interest rate $r_{0}$
 
 We can construct two portfolios
 
@@ -231,7 +231,8 @@ when $x\to 0$
 Given
 
 $$r_{0:T}=\frac{p_{T}}{p_{0}}-1=\prod_{t=1}^T(1+r_{t})-1$$
- Consider
+
+Consider
 
 $$
 \begin{align}

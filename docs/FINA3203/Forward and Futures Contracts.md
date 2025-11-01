@@ -32,7 +32,7 @@ Forward is a zero-sum game
 > [!Success] Solution
 > short a forward contract with forward price $F_{0,T}=\$109$ at $T=1.8$
 
-![[Ust_Note/yr2_Fall/FINA3203/attachments/Pasted image 20250915150042.png]]
+![[attachments/Pasted image 20250915150042.png]]
 
 - The future stock price $S_{T}$ is unknown but canceled out.
 - The final payoff $N_{0}\times F_{o,T}$ is independent of $S_{T}$ and risk-free (certain)

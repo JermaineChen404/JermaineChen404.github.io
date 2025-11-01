@@ -38,7 +38,7 @@ theme:
       primary: indigo
       # 链接等可交互元件的高亮色
       # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
-      accent: orange
+      accent: blue
       toggle:
         # 图标
         icon: material/weather-night
@@ -47,7 +47,7 @@ theme:
     # 夜间模式
     - scheme: slate
       primary: indigo
-      accent: orange
+      accent: blue
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
@@ -106,6 +106,8 @@ extra:
     - name: LinkedIn | Chen Hejian
       icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/hejian-chen-b4945a35b/
+font:
+    text: Roboto
 
 # [Extensions]
 plugins:

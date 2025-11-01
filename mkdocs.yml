@@ -24,6 +24,11 @@ nav:
       - 2 Quality Management: ISOM2700/Quality_Management.md
       - 3 Capacity Planning: ISOM2700/Capacity_Planning.md
       - 4 Service Management: ISOM2700/Service_Management.md
+    - ECON2123 Macroeconomics:
+      - 1 Overview: ECON2123/Overview.md
+      - 2 The Goods Market: ECON2123/The Goods Market.md
+      - 3 Financial Markets: ECON2123/Financial Markets.md
+      - 4 The IS-LM Model: ECON2123/The IS-LM Model.md
 # [UI]
 # [top]
 theme:

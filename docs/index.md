@@ -1,6 +1,6 @@
 # 你好呀
 ## Where u at?
-The is a personal website created by Chen Hejian (Jermaine) <https://jermainechen404.github.io>
+The is a [personal website](https://jermainechen404.github.io) created by Chen Hejian (Jermaine).
 
 ## What can be found here?
 This website primarily contains my course notes and random blogs that I feel worth sharing. You are welcome to browse at your discretion. However, **the intellectual property rights of the course notes ultimately belong to the instructor of my course at HKUST**. I may remove the relevant content at any time if requested to do so. The content may contain inaccuracies. If you notice any errors or flaws, please contact me. Thank you very much.

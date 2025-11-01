@@ -140,7 +140,7 @@ flowchart LR
 
 ### Effects on Investment
 ```mermaid
-flowchart TD
+flowchart LR
 	6(Monetray Policy) -->|++|7(Output)
 	6 -->|--| 8(Interest rate)
 	7 -->|++| 9(Sales)
@@ -150,7 +150,7 @@ flowchart TD
 ```
 
 ```mermaid
-flowchart TD
+flowchart LR
 	1(Fiscal policy) -->|++| 2(Output)
 	2 -->|++| 3(Sales)
 	3 -->|++| 4(Investment)

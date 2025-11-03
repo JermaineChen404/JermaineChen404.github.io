@@ -67,11 +67,11 @@ Meta’s stock recently dropped sharply (down ~11–12% in late October 2025) af
 
 ### Why Meta’s Stock Dropped
 
-- **Earnings Miss on EPS:** Q3 EPS came in at **$1.05 vs. $6.70 expected**, largely due to a one-time **$15.9B tax expense**.
+- **Earnings Miss on EPS:** Q3 EPS came in at **\$1.05 vs. \$6.70 expected**, largely due to a one-time **\$15.9B tax expense**.
     
-- **CapEx Shock:** Management raised 2025 CapEx to **$70–72B**, with more hikes expected in 2026.
+- **CapEx Shock:** Management raised 2025 CapEx to **\$70–72B**, with more hikes expected in 2026.
     
-- **Cost Growth > Revenue Growth:** Revenue rose **26% YoY to $51.2B**, but expenses and CapEx grew even faster, compressing margins.
+- **Cost Growth > Revenue Growth:** Revenue rose **26% YoY to \$51.2B**, but expenses and CapEx grew even faster, compressing margins.
     
 - **Investor Sentiment:** Markets fear Meta is overspending on AI infrastructure (data centers, custom chips) without clear near-term monetization.
 ### Conclusion

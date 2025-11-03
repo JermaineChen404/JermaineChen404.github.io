@@ -42,5 +42,37 @@ The focus is currently on private-sector reports, notably the ISM surveys on man
 ## Headlines
 > from [Yahoo Finance](https://finance.yahoo.com/)
 
+- [Amazon strikes \$38B deal with OpenAI for Nvidia chips](https://finance.yahoo.com/news/amazon-stock-jumps-on-38-billion-deal-with-openai-to-use-hundreds-of-thousands-of-nvidia-chips-145357373.html)
 
-## Takeaway
+|**Aspect**|**Summary**|
+|---|---|
+|**Event**|Amazon Web Services (AWS) signs a massive deal with OpenAI.[](https://www.livemint.com/ai/artificial-intelligence/explained-how-amazon-will-benefit-from-38-billion-openai-deal-11762186423687.html)[](https://halifax.citynews.ca/2025/11/03/openai-and-amazon-sign-38b-deal-for-ai-computing-power/)|
+|**Deal Value**|Reported at **$38 billion** over seven years.[](https://www.livemint.com/ai/artificial-intelligence/explained-how-amazon-will-benefit-from-38-billion-openai-deal-11762186423687.html)|
+|**Core Offering**|AWS will provide OpenAI with cloud computing capacity, specifically access to "hundreds of thousands" of Nvidia's advanced AI chips.[](https://halifax.citynews.ca/2025/11/03/openai-and-amazon-sign-38b-deal-for-ai-computing-power/)[](https://www.dnronline.com/associated_press/national/openai-and-amazon-sign-38b-deal-for-ai-computing-power/article_b62635c7-fdc6-5f75-a10d-dee59abdfc22.html)|
+|**Key Implication**|OpenAI diversifies its cloud infrastructure, ending Microsoft's status as its exclusive cloud provider.[](https://www.livemint.com/ai/artificial-intelligence/explained-how-amazon-will-benefit-from-38-billion-openai-deal-11762186423687.html)[](https://halifax.citynews.ca/2025/11/03/openai-and-amazon-sign-38b-deal-for-ai-computing-power/)|
+|**Market Reaction**|Amazon's stock **jumped 5%** to a record high following the announcement, adding nearly $140 billion to its market value.[](https://www.livemint.com/ai/artificial-intelligence/explained-how-amazon-will-benefit-from-38-billion-openai-deal-11762186423687.html)|
+
+- **A Strategic Win for AWS**: This deal is a major endorsement of AWS's capabilities in the competitive AI race. By landing OpenAI as a high-profile client, AWS solidifies its position as a key player and directly counters the advantage of rivals like Microsoft.[](https://www.livemint.com/ai/artificial-intelligence/explained-how-amazon-will-benefit-from-38-billion-openai-deal-11762186423687.html) This can strengthen investor confidence in Amazon's long-term growth in the lucrative AI sector.
+    
+- **The "Compute" Gold Rush**: The core of this deal is not just a software license, but the provision of raw computational power (compute). This highlights a fundamental business model in the AI era: cloud providers like Amazon act as the "picks and shovels" for AI companies, generating massive, recurring revenue by renting out access to expensive, specialized hardware.[](https://www.livemint.com/ai/artificial-intelligence/explained-how-amazon-will-benefit-from-38-billion-openai-deal-11762186423687.html)[](https://halifax.citynews.ca/2025/11/03/openai-and-amazon-sign-38b-deal-for-ai-computing-power/)
+    
+- **Diversification as a De-risking Strategy**: OpenAI's move to a multi-cloud strategy with Amazon shows how companies mitigate risk and ensure scalability. For Amazon, this reduces reliance on a single partner; for OpenAI, it guarantees access to the immense computing resources needed for growth without being locked into one vendor.[](https://www.livemint.com/ai/artificial-intelligence/explained-how-amazon-will-benefit-from-38-billion-openai-deal-11762186423687.html) This is a key corporate finance and operational strategy in action.
+    
+- **Market Sentiment and Valuation**: The stock's sharp positive reaction demonstrates how strategic deals, especially in high-growth areas like AI, can immediately impact a company's market valuation. Investors are betting that the future revenue and strategic positioning from this deal will significantly benefit Amazon's future cash flows.
+
+
+## Review on META
+### Quick Take
+Meta’s stock recently dropped sharply (down ~11–12% in late October 2025) after earnings, despite strong revenue growth, because investors were spooked by **soaring AI-related CapEx, a $15.9B tax hit, and guidance for even higher spending in 2026**. Whether it’s a good time to buy depends on your horizon: short-term pressure from costs vs. long-term upside from AI-driven advertising and platform dominance.
+
+### Why Meta’s Stock Dropped
+
+- **Earnings Miss on EPS:** Q3 EPS came in at **$1.05 vs. $6.70 expected**, largely due to a one-time **$15.9B tax expense**.
+    
+- **CapEx Shock:** Management raised 2025 CapEx to **$70–72B**, with more hikes expected in 2026.
+    
+- **Cost Growth > Revenue Growth:** Revenue rose **26% YoY to $51.2B**, but expenses and CapEx grew even faster, compressing margins.
+    
+- **Investor Sentiment:** Markets fear Meta is overspending on AI infrastructure (data centers, custom chips) without clear near-term monetization.
+### Conclusion
+The market is re-rating the stock from a pure "cash cow" to a "speculative tech bet," which increases volatility.

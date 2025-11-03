@@ -9,6 +9,7 @@ site_description: Blog by Chen Hejian (Jermaine)
 nav:
   - Home: index.md
   - Market News:
+    - Market_News/Nov 3rd.md
     - Market_News/Sep 3rd.md
     - Market_News/Sep 4th.md
     - Market_News/Sep 8th.md

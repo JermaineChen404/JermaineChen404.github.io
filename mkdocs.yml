@@ -9,8 +9,9 @@ site_description: Blog by Chen Hejian (Jermaine)
 nav:
   - Home: index.md
   - Market News:
-    - Market_News/Nov 3rd.md
     - Market_News/Nov 4th.md
+    - Market_News/Nov 3rd.md
+    - Market_News/Oct 13.md
     - Market_News/Sep 3rd.md
     - Market_News/Sep 4th.md
     - Market_News/Sep 8th.md
@@ -19,7 +20,6 @@ nav:
     - Market_News/Sep 11th.md
     - Market_News/Sep 16th.md
     - Market_News/Sep 18th.md
-    - Market_News/Oct 13.md
   - 2025 Fall:
     - ISOM2700 Operation Management:
       - 1 Process Analysis: ISOM2700/Process_Analysis.md

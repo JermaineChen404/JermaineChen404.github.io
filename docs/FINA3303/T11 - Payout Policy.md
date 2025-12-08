@@ -22,7 +22,7 @@ $$PV_{d}=\frac{1}{\text{Shares Outstanding}}\left(\text{Excess Cash}+\sum \frac{
 
 $$|\Delta \text{Stock Price}|=\text{Dividends Paid per share}$$
 
->[!Proof]
+>[!Proof]-
 >>[!check] Dividend Discount Model
 >>
 >>$$P_{\text{cum}}=\frac{1}{\text{Shares Outstanding}}\left(\text{Excess Cash}+\sum \frac{FCFF_{t}}{(1+R_{wacc})^t}\right)$$
@@ -46,7 +46,7 @@ Dividends can mitigate agency costs
 ## Stock Repurchase
 $$\Delta \text{Stock Price}=0$$
 
->[!Proof]
+>[!Proof]-
 >>[!check] Dividend Discount Model
 >>Let
 >>

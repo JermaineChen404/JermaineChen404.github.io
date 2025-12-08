@@ -67,13 +67,7 @@ $$\Delta \text{Stock Price}=0$$
 >>Post-repurchase, cash $C$ is paid out, leaving only the operating value $V_{\text{op}}$.
 >>Thus
 >>
->>$$\begin{aligned}
-P_{rep}
-&=\frac{1}{\text{Shares Outstanding}_{rep}}\sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t} \\
-&= \frac{V_{\text{op}}}{\,N_0\cdot\frac{V_{\text{op}}}{C+V_{\text{op}}}\,} \\
-&= \frac{C+V_{\text{op}}}{N_0} \\
-&= P_0.
-\end{aligned}$$
+>>$$\begin{aligned} P_{rep}&=\frac{1}{\text{Shares Outstanding}_{rep}}\sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^{t}} \\ &=\frac{V_{\text{op}}}{\,N_0\cdot\frac{V_{\text{op}}}{C+V_{\text{op}}}\,} \\&= \frac{C+V_{\text{op}}}{N_0} \\&= P_0.\end{aligned}$$
 >>
 >>Therefore,
 >>
@@ -110,10 +104,7 @@ $$P_{cum}-P_{ex}=Dividend(1-T_{c})$$
 ### The Effective Dividend Tax Rate
 Assume $T_{g}$ is the capital gain tax rate, and $T_{d}$ is the dividend tax rate
 
-$$\begin{align}
-\text{After tax gain from dividend}&=\text{After tax loss from stock price declines} \\
-Div(1-T_{d})&=(P_{cum}-P_{ex})(1-T_{g})
-\end{align}$$
+$$\begin{align}\text{After tax gain from dividend}&=\text{After tax loss from stock price declines} \\Div(1-T_{d})&=(P_{cum}-P_{ex})(1-T_{g})\end{align}$$
 
 Thus,
 

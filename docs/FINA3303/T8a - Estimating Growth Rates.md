@@ -26,25 +26,25 @@ the **growth rate of EPS** is given by
 
 $$g_{t}=\text{retention ratio}\times \text{ROE}$$
 
->[!tip]- Proof
->
->$$g_{t}=\frac{NI_{t}-NI_{t-1}}{NI_{t-1}}$$
->
->The net income can be written as
->
->$$\begin{align}
-NI_{t}&=\text{Equity}_{t-1}\times ROE_{t} \\
-&=(\text{Equity}_{t-2}+\text{Retained earning}_{t-1})\times ROE_{t}
-\end{align}$$
->
->$$NI_{t-1}=\text{Equity}_{t-2}\times ROE_{t-1}$$
->
->Thus,
->
->$$\begin{align}
-g_{t}&=\frac{\text{Retained earning}_{t-1}}{NI_{t-1}}\times ROE \\
-&=\text{retention ratio}\times ROE
-\end{align}$$
+!!! tip "Proof"
+
+    $$g_{t}=\frac{NI_{t}-NI_{t-1}}{NI_{t-1}}$$
+
+    The net income can be written as
+
+    $$\begin{align}
+    NI_{t}&=\text{Equity}_{t-1}\times ROE_{t} \\
+    &=(\text{Equity}_{t-2}+\text{Retained earning}_{t-1})\times ROE_{t}
+    \end{align}$$
+
+    $$NI_{t-1}=\text{Equity}_{t-2}\times ROE_{t-1}$$
+
+    Thus,
+
+    $$\begin{align}
+    g_{t}&=\frac{\text{Retained earning}_{t-1}}{NI_{t-1}}\times ROE \\
+    &=\text{retention ratio}\times ROE
+    \end{align}$$
 
 - If $\text{retention rate}=0\%$, $g_{EPS}=0$
 - If $\text{retention rate}=100\%$, $g_{EPS}=ROE$

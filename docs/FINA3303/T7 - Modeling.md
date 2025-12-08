@@ -6,8 +6,10 @@
 	- Efficiency: Inventory/Receivable Turnover
 	- Return: Rate of return ($\text{ROE}=\frac{\text{net income}}{\text{Equity}}$)
 		- ROE decomposition: Profitability + Efficiency + Leverage level
+		
 		$$\text{ROE}=\frac{\text{net income}}{\text{sales}}\times \frac{\text{sales}}{\text{total asset}}\times \frac{\text{total asset}}{\text{equity}}$$
-	-  Liquidity: $\frac{\text{EBIT}}{\text{interest expanse}}$, Debt ratio (for long term)
+
+		-  Liquidity: $\frac{\text{EBIT}}{\text{interest expanse}}$, Debt ratio (for long term)
 
 ## Building Excel
 Convert financial statements into common size:

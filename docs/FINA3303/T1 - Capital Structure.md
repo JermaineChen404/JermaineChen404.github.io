@@ -40,12 +40,12 @@ $$R_{U}=R_{wacc}=\frac{E}{D+E}\times R_{E}+\frac{D}{D+E}\times R_{D}$$
 		- cost of the firm's business risk
 		- the risk of the firm's assets
 	- $R_{E}=R_{U}+(R_{U}-R_{D})\frac{D}{E}$
-		- ![[Ust_Note/yr2_Fall/FINA3303/attachments/Pasted image 20250912122854.png]]
+		- ![[Pasted image 20250912122854.png]]
 		- More debt, more volatile, higher required return on levered equity
 - When $\frac{D}{V}$ is high enough
 	- $r_{D}$ is no longer constant and starts to increase
 
-![[Ust_Note/yr2_Fall/FINA3303/attachments/Pasted image 20250912123127.png]]
+![[Pasted image 20250912123127.png]]
 
 ## Case II
 ### Assumption
@@ -67,7 +67,7 @@ $$R_{U}=R_{wacc}=\frac{E}{D+E}\times R_{E}+\frac{D}{D+E}\times R_{D}$$
 
 - Value of a levered firm = value of an unlevered firm $+$ PV of interest tax shield
 
-![[Ust_Note/yr2_Fall/FINA3303/attachments/Pasted image 20250912125435.png]]
+![[Pasted image 20250912125435.png]]
 
 ### Proposition II - WACC
 $$R_{wacc}=\frac{E}{D+E}\times R_{E}+\frac{D}{D+E}\times R_{D}(1-T_{C})$$
@@ -134,6 +134,7 @@ $$B_{U}=\frac{E}{D+E}\times B_{E}$$
 We have the Hamada's equation
 
 $$B_{U}=\left[\frac{1}{1+(1-T_{c})\frac{D}{E}}\right]\times B_{E}$$
+
 $$\iff B_{E}=\left[1+(1-T_{c})\frac{D}{E}\right]B_{U}$$
 
 #### Implication

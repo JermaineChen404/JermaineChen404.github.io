@@ -10,6 +10,7 @@ $$\text{Value of a firm}=\sum_{t=1}^{t=n}\frac{\text{CF}_{t}}{(1+r)^t}+\frac{\te
 
 ## Stable Growth Model
 $$\text{Terminal Value of Equity}_{t}=\frac{\text{Cash flow to equity}_{t+1}}{R_{e}-g}$$
+
 $$\text{Terminal Value of Firm}_{t}=\frac{\text{FCFF}_{t+1}}{R_{wacc}-g}$$
 
 >[!warning] Constraints on $g$
@@ -40,6 +41,7 @@ $$\text{Terminal Value of Firm}_{t}=\frac{\text{FCFF}_{t+1}}{R_{wacc}-g}$$
 >>$$\text{Equity reinvestment rate}=\frac{\text{Expected growth rate of net income}}{ROE}$$
 >
 >>In a free cash flows to firm model
+>>
 >>$$\text{Reinvestment rate}=\frac{\text{Expected EBIT growth rate}}{ROC}$$
 
 ### How Growth Rate Assumption affects Terminal Value
@@ -51,10 +53,15 @@ $$\text{Terminal Value of Firm}_{t}=\frac{\text{FCFF}_{t+1}}{R_{wacc}-g}$$
 >Increase in growth rate sacrifices cash flow due to higher reinvestment rate. Return is greater than cost implies that the new investment has a positive NPV.
 
 >[!Proof]
+>
 >$$b\equiv \text{reinvestment rate}$$
+>
 >$$b=\frac{g}{ROC}$$
+>
 >$$\text{Unlevered FCFF}=EBIT(1-T_{c})(1-\text{b})$$
+>
 >$$\text{Terminal value}_{n}=\frac{EBIT_{n-1}(1-T_{c})(1-b)}{R_{wacc}-g}=\frac{EBIT_{n-1}(1-T_{c})\left( 1-\frac{g}{ROC} \right)}{R_{wacc}-g}$$
+>
 >$$\frac{d\text{ Terminal Value}_{n}}{dg}=\frac{EBIT_{n-1}(1-T_c)\left(1 - \tfrac{R_{wacc}}{ROC}\right)}{(R_{wacc} - g)^2}$$
 >
 >Thus, the terminal value is strictly increasing in $b$ if $ROE>R_{E}$, and vice versa.

@@ -25,9 +25,11 @@ $$|\Delta \text{Stock Price}|=\text{Dividends Paid per share}$$
 >[!Proof]
 >>[!check] Dividend Discount Model
 >>
-$$P_{\text{cum}}=\frac{1}{\text{Shares Outstanding}}\left(\text{Excess Cash}+\sum \frac{FCFF_{t}}{(1+R_{wacc})^t}\right)$$
-$$P_{\text{ex}}=\frac{1}{\text{Shares Outstanding}}\sum \frac{FCFF_{t}}{(1+R_{wacc})^t}$$
-$$-\Delta \text{Stock Price}=P_{cum}-P_{ex}=\frac{\text{Excess Cash}}{\text{Shares Outstanding}}=\text{Dividends Paid per share}$$
+>>$$P_{\text{cum}}=\frac{1}{\text{Shares Outstanding}}\left(\text{Excess Cash}+\sum \frac{FCFF_{t}}{(1+R_{wacc})^t}\right)$$
+>>
+>>$$P_{\text{ex}}=\frac{1}{\text{Shares Outstanding}}\sum \frac{FCFF_{t}}{(1+R_{wacc})^t}$$
+>>
+>>$$-\Delta \text{Stock Price}=P_{cum}-P_{ex}=\frac{\text{Excess Cash}}{\text{Shares Outstanding}}=\text{Dividends Paid per share}$$
 >
 >>[!check] Market Value Balance Sheet
 >>![[Pasted image 20251207202827.png]]
@@ -46,29 +48,40 @@ $$\Delta \text{Stock Price}=0$$
 
 >[!Proof]
 >>[!check] Dividend Discount Model
+>>Let
 >>
-Let$$
-P_{0}=\frac{1}{\text{Shares Outstanding}_{0}}\left(\text{Excess Cash}+\sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t}\right)$$
-Define$$
-V_{\text{op}} \equiv \sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t},\quad N_{0}\equiv \text{Shares Outstanding}_{0},\quad C\equiv \text{Excess Cash}.$$
-Then $P_0=\frac{C+V_{\text{op}}}{N_0}$.
-The repurchase uses $C$ at price $P_0$, so$$
-\text{Shares Outstanding}_{rep}=N_{0}-\frac{C}{P_{0}}
+>>$$P_{0}=\frac{1}{\text{Shares Outstanding}_{0}}\left(\text{Excess Cash}+\sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t}\right)$$
+>>
+>>Define
+>>
+>>$$V_{\text{op}} \equiv \sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t},\quad N_{0}\equiv \text{Shares Outstanding}_{0},\quad C\equiv \text{Excess Cash}.$$
+>>
+>>Then $P_0=\frac{C+V_{\text{op}}}{N_0}$.
+>>The repurchase uses $C$ at price $P_0$, so
+>>
+>>$$\text{Shares Outstanding}_{rep}=N_{0}-\frac{C}{P_{0}}
 = N_0-\frac{C}{(C+V_{\text{op}})/N_0}
 = N_0\left(1-\frac{C}{C+V_{\text{op}}}\right)
 = N_0\cdot\frac{V_{\text{op}}}{C+V_{\text{op}}}.$$
-Post-repurchase, cash $C$ is paid out, leaving only the operating value $V_{\text{op}}$. Thus$$
-\begin{aligned}
+>>
+>>Post-repurchase, cash $C$ is paid out, leaving only the operating value $V_{\text{op}}$.
+>>Thus
+>>
+>>$$\begin{aligned}
 P_{rep}
 &=\frac{1}{\text{Shares Outstanding}_{rep}}\sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t} \\
 &= \frac{V_{\text{op}}}{\,N_0\cdot\frac{V_{\text{op}}}{C+V_{\text{op}}}\,} \\
 &= \frac{C+V_{\text{op}}}{N_0} \\
 &= P_0.
 \end{aligned}$$
-Therefore,$$P_{rep}=P_{0}$$
+>>
+>>Therefore,
+>>
+>>$$P_{rep}=P_{0}$$
 >
 >>[!check] Market Value Balance Sheet
 >>![[Pasted image 20251207205024.png]]
+
 - Open Market Repurchase ($\sim 95\%$)
 	- buy shares at the market price
 - Tender Offer ($\sim 5\%$)
@@ -113,6 +126,7 @@ $T_{d}^*$ measures the additional tax paid by the investor per dollar of after-t
 
 ### Taxes on Interest Income
 $$Div=\text{Excess Cash}\times r_{f}\times(1-T_{c})$$
+
 $$P_{\text{retain}}=\frac{Div\times(1-T_{d})}{r_{f}\times(1-T_{i})}$$
 
 The effective tax disadvantage of retaining cash is

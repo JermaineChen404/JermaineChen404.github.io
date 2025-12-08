@@ -6,6 +6,7 @@
 	- internal growth comes from retaining some of profits for reinvestment, in turn resulting in the growth of future earnings
 
 $$g=\text{retention rate}\times \text{return on new investment}$$
+
 $$\text{dividend payoutr ratio}=\frac{\text{dividends}}{\text{earning}}=1-\text{retention rate}$$
 
 ## Growth in Earnings per Share
@@ -26,6 +27,7 @@ the **growth rate of EPS** is given by
 $$g_{t}=\text{retention ratio}\times \text{ROE}$$
 
 >[!tip]- Proof
+>
 >$$g_{t}=\frac{NI_{t}-NI_{t-1}}{NI_{t-1}}$$
 >
 >The net income can be written as
@@ -33,8 +35,8 @@ $$g_{t}=\text{retention ratio}\times \text{ROE}$$
 >$$\begin{align}
 NI_{t}&=\text{Equity}_{t-1}\times ROE_{t} \\
 &=(\text{Equity}_{t-2}+\text{Retained earning}_{t-1})\times ROE_{t}
-\end{align}
->$$
+\end{align}$$
+>
 >$$NI_{t-1}=\text{Equity}_{t-2}\times ROE_{t-1}$$
 >
 >Thus,
@@ -59,7 +61,9 @@ g_{t}&=\frac{\text{Retained earning}_{t-1}}{NI_{t-1}}\times ROE \\
 >Assume dividends grow at a constant rate
 >
 >$$b\equiv \text{retention rate}$$
+>
 >$$P_{0}=\frac{D_{1}}{R_{E}-g}=\frac{EPS_{1}\times b}{R_{E}-ROE\times b}$$
+>
 >$$\frac{dP}{db}=EPS \times \frac{(ROE-R_{E})}{(R_{E}-b\times ROE)^{2}}$$
 >
 >Thus, the stock price is strictly increasing in $b$ if $ROE>R_{E}$, and vice versa.
@@ -78,6 +82,7 @@ $$\text{Marginal ROE}=\frac{\Delta \text{ Net income}_{t}}{\Delta \text{ Book va
 We introduce the effect of changing ROE on existing investments over time.
 
 $$\text{Efficiency generated growth}=\frac{ROE_{t}-ROE_{t-1}}{ROE_{t-1}}$$
+
 $$\text{Expected growth rate in EPS}=ROE_{t}\times \text{retention rate}+\frac{ROE_{t}-ROE_{t-1}}{ROE_{t-1}}$$
 
 The efficiency generated growth only affect the growth rate in the year in which ROE changes.
@@ -94,6 +99,7 @@ $$\text{growth in EPS}\ne\text{growth in Net Income}$$
 First, we estimate how much equity the firm reinvests back into its business in the form of net capital expenditures and investments in working capital.
 
 $$\text{Equity reinvested in business}=\text{CapEx}-\text{Depre.}+\Delta \text{NWC}-\text{Net Debt}$$
+
 $$\text{Equity reinvestment rate}=\frac{\text{Equity reinvested}}{\text{Net income}}$$
 
 >[!warning]
@@ -107,7 +113,9 @@ $$\text{Expected growth in net income}=\text{Equity reinvestment rate}\times ROE
 >In a Free Cash Flow to Firm Model (WACC method)
 
 $$\text{Expected growth of EBIT}=\text{Reinvestment rate}\times \text{Return on capital}$$
+
 $$\text{Reinvestment rate}=\frac{\text{CapEx}-\text{Depre.}+\Delta NWC}{EBIT(1-T_{C})}$$
+
 $$\text{Return on capital}=\frac{EBIT(1-T_{C})}{\text{Equity}+\text{Debt}-\text{Cash}}$$
 
 ## Implications

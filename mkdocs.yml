@@ -42,6 +42,17 @@ nav:
       - 5 Forwards and Futures on Interest Rates: FINA3203/Forwards and Futures on Interest Rates.md
       - 6 Swaps: FINA3203/Swaps.md
       - 7 Intro to Options: FINA3203/Options.md
+    - FINA3303 Intermediate Corporate Finance:
+      - 1 Capital Structure: FINA3303/T1 - Capital Structure.md
+      - 2 Capital Budgeting and Valuation: FINA3303/T2 - Capital Budgeting and Valuation.md
+      - 3 Estimating WACC: FINA3303/T6 - Estimating WACC.md
+      - 4 Modeling: FINA3303/T7 - Modeling.md
+      - 5 Estimating Growth Rates: FINA3303/T8a - Estimating Growth Rates.md
+      - 6 Estimating Terminal Value: FINA3303/T8b - Estimating Terminal Value.md
+      - 7 Working Capital Management: FINA3303/T9 - Working Capital Management.md
+      - 8 Short Term Financial Planning: FINA3303/T10 - Short Term Financial Planning.md
+      - 9 Payopout Policy: FINA3303/T11 - Payout Policy.md
+      - 10 Private Equity: FINA3303/T12 - Private Equity.md
 # [UI]
 # [top]
 theme:

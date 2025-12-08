@@ -46,35 +46,44 @@ Dividends can mitigate agency costs
 ## Stock Repurchase
 $$\Delta \text{Stock Price}=0$$
 
->[!Proof]-
->>[!check] Dividend Discount Model
->>Let
->>
->>$$P_{0}=\frac{1}{\text{Shares Outstanding}_{0}}\left(\text{Excess Cash}+\sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t}\right)$$
->>
->>Define
->>
->>$$V_{\text{op}} \equiv \sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t},\quad N_{0}\equiv \text{Shares Outstanding}_{0},\quad C\equiv \text{Excess Cash}.$$
->>
->>Then $P_0=\frac{C+V_{\text{op}}}{N_0}$.
->>The repurchase uses $C$ at price $P_0$, so
->>
->>$$\text{Shares Outstanding}_{rep}=N_{0}-\frac{C}{P_{0}}
-= N_0-\frac{C}{(C+V_{\text{op}})/N_0}
-= N_0\left(1-\frac{C}{C+V_{\text{op}}}\right)
-= N_0\cdot\frac{V_{\text{op}}}{C+V_{\text{op}}}.$$
->>
->>Post-repurchase, cash $C$ is paid out, leaving only the operating value $V_{\text{op}}$.
->>Thus
->>
->>$$\begin{aligned} P_{rep}&=\frac{1}{\text{Shares Outstanding}_{rep}}\sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^{t}} \\ &=\frac{V_{\text{op}}}{\,N_0\cdot\frac{V_{\text{op}}}{C+V_{\text{op}}}\,} \\&= \frac{C+V_{\text{op}}}{N_0} \\&= P_0.\end{aligned}$$
->>
->>Therefore,
->>
->>$$P_{rep}=P_{0}$$
->
->>[!check] Market Value Balance Sheet
->>![[Pasted image 20251207205024.png]]
+!!! proof
+    Dividend Discount Model
+
+    Let
+
+    $$P_{0}=\frac{1}{\text{Shares Outstanding}_{0}}\left(\text{Excess Cash}+\sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t}\right)$$
+
+    Define
+
+    $$V_{\text{op}} \equiv \sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^t},\quad N_{0}\equiv \text{Shares Outstanding}_{0},\quad C\equiv \text{Excess Cash}.$$
+
+    Then $P_0=\frac{C+V_{\text{op}}}{N_0}$.
+    The repurchase uses $C$ at price $P_0$, so
+
+    $$\text{Shares Outstanding}_{rep}=N_{0}-\frac{C}{P_{0}}
+    = N_0-\frac{C}{(C+V_{\text{op}})/N_0}
+    = N_0\left(1-\frac{C}{C+V_{\text{op}}}\right)
+    = N_0\cdot\frac{V_{\text{op}}}{C+V_{\text{op}}}.$$
+
+    Post-repurchase, cash $C$ is paid out, leaving only the operating value $V_{\text{op}}$.
+    Thus
+
+    $$\begin{aligned} 
+    P_{rep}&=\frac{1}{\text{Shares Outstanding}_{rep}}\sum_{t=1}^{\infty} \frac{FCFF_{t}}{(1+R_{wacc})^{t}} \\ 
+    &=\frac{V_{\text{op}}}{\,N_0\cdot\frac{V_{\text{op}}}{C+V_{\text{op}}}\,} \\ 
+    &= \frac{C+V_{\text{op}}}{N_0} \\ 
+    &= P_0.
+    \end{aligned}$$
+
+    Therefore,
+
+    $$P_{rep}=P_{0}$$
+
+!!! check
+    Market Value Balance Sheet
+
+    ![Market Value Balance Sheet](Pasted image 20251207205024.png)
+
 
 - Open Market Repurchase ($\sim 95\%$)
 	- buy shares at the market price

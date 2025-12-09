@@ -431,29 +431,24 @@ $$
 ---
 
 ## Sample
+### Question 1
 
 ![Sample Diagram 1](11.png)
 ![Sample Diagram 2](12.png)
+
+### Question 2
+
 ![Sample Diagram 3](16.png)
 
----
-
-## Sample
+### Question 3
 
 ![Sample Diagram 4](15.png)
 ![Sample Diagram 5](14.png)
 
----
-
-## Sample
+### Short Question
 
 ![Sample Diagram 6](17.png)
 ![Sample Diagram 7](18.png)
-
----
-
-## Sample
-
 ![Sample Diagram 8](19.png)
 ![Sample Diagram 9](20.png)
 ![Sample Diagram 10](21.png)

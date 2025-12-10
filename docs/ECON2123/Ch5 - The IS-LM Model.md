@@ -11,6 +11,7 @@ The **income** in the [[Ch4 - Financial Markets#The Demand for Money|equation]] 
 $$\text{real }M^{S}=\text{real }M^d$$
 
 $$\frac{M}{P}=YL(i)$$
+
 This is referred as the $LM$ Relation, where everything is assumed to be *real* instead of *nominal.*
 
 >[!tip]

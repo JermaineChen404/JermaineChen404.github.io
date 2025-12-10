@@ -116,6 +116,7 @@ $$Z= c_{0}+c_{1}(Y-T)+\bar{I}+G$$
 Assume no inventory investment, **equilibrium in the goods market** requires that production be equal to the demand for goods:
 
 $$Y=Z=C+I+G$$
+
 which is an [[Ch3 - The Goods Market#Types of Equation|equilibrium equation]].
 
 Further we have
@@ -169,22 +170,34 @@ Income--> Consumption
 Consumption --> Demand
 ```
  which can be expressed by a geometric series
+
 $$1+c_{1}+c_{1}^2+c_{1}^3+\dots=\frac{1}{1-c_{1}}$$
+
 The end result is an increase in output that is larger than the initial shift in demand, by a factor equal to the multiplier.
 
 The size of the multiplier depends on the value of the propensity (tendency) to consume.
 
 ## IS Relation
 There is an alternative view on the equilibrium from investment and saving.
+
 $$\text{Saving}=\text{Private Saving}+\text{Public Saving}$$
+
 Private saving $S$ equals customers' disposable income minus consumption
+
 $$S\equiv Y-T-C$$
+
 Public saving $S'$ equals taxes (net of transfer) minus government spending
+
 $$S'\equiv T-G$$
+
 Subtract taxes ($T$) from both sides of [[Ch3 - The Goods Market#The Determination of Equilibrium Output|previous equilibrium equation]]
+
 $$Y-T-C=I+G-T$$
+
 Or equivalently
+
 $$I=(Y-T-C)+(T-G)=S+S'$$
+
 > Therefore, the equilibrium in the goods market requires that investment equal saving (sum of private and public), which is called **IS relation**
 
 ```mermaid
@@ -196,6 +209,7 @@ Saving <--o |decide|Government
 ```
 
 The private saving can be written as
+
 $$
 \begin{align}
 S&=Y-T-C \\
@@ -203,11 +217,15 @@ S&=Y-T-C \\
 &=-c_{0}+(1-c_{1})(Y-T)
 \end{align}
 $$
+
 The parameter $(1-c_{1})$ is called the propensity to save.
 
 Also,
+
 $$I=-c_{0}+(1-c_{1})(Y-T)+(T-G)$$
+
 We get the exact same result as before
+
 $$Y=\frac{1}{1-c_{1}}(c_{0}+\bar{I}+G-c_{1}T)$$
 
 >[!note] Unchanged Saving

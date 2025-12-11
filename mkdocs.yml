@@ -23,12 +23,6 @@ nav:
     - Market_News/Sep 16th.md
     - Market_News/Sep 18th.md
   - 2025 Fall:
-    - ISOM2700 Operation Management:
-      - 1 Process Analysis: ISOM2700/Process_Analysis.md
-      - 2 Quality Management: ISOM2700/Quality_Management.md
-      - 3 Capacity Planning: ISOM2700/Capacity_Planning.md
-      - 4 Service Management: ISOM2700/Service_Management.md
-      - 5 Inventory Management: ISOM2700/Inventory Management.md
     - ECON2123 Macroeconomics:
       - 1 Overview: ECON2123/Ch1&2 - Overview.md
       - 2 The Goods Market: ECON2123/Ch3 - The Goods Market.md
@@ -61,6 +55,14 @@ nav:
       - 8 Short Term Financial Planning: FINA3303/T10 - Short Term Financial Planning.md
       - 9 Payopout Policy: FINA3303/T11 - Payout Policy.md
       - 10 Private Equity: FINA3303/T12 - Private Equity.md
+    - ISOM2700 Operation Management:
+      - 1 Process Analysis: ISOM2700/Process_Analysis.md
+      - 2 Quality Management: ISOM2700/Quality_Management.md
+      - 3 Capacity Planning: ISOM2700/Capacity_Planning.md
+      - 4 Service Management: ISOM2700/Service_Management.md
+      - 5 Inventory Management: ISOM2700/Inventory Management.md
+    - MGMT2110 Organizational Behavior:
+      - Final Review: MGMT2110/Final Review.md
 # [UI]
 # [top]
 theme:

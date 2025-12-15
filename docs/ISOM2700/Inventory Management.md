@@ -93,7 +93,7 @@ We have the optimal order quantity:
 
 $$Q^*=\sqrt{ \frac{2DS}{H} }$$
 
-which is called the **E**conomic **O**rder **Q**uantity**.
+which is called the **E**conomic **O**rder **Q**uantity.
 
 The **EOQ** can also be obtained by letting $\text{setup cost}=\text{holding cost}$:
 

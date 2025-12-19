@@ -70,6 +70,7 @@ nav:
 # [top]
 theme:
   name: material
+  custom_dir: custom_theme
   # [切换日间模式和夜间模式]
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
   palette:
@@ -231,4 +232,3 @@ extra_css:
   # 无序列表符号自定义
   - mkdocs/css/unordered-list-symbols.css
   - https://unpkg.com/katex@0/dist/katex.min.css
-custom_dir: custom_theme

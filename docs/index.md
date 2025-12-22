@@ -4,84 +4,81 @@ hide:
   - toc
 ---
 
-# <span class="twemoji">🚀</span> Jermaine's Knowledge Hub
+# <span class="twemoji">🚀</span> 你好呀 | Welcome to Jermaine's Hub
+
+**Chen Hejian (Jermaine)** • Year 2 Business Student @ HKUST  
+*Synthesizing Finance, Economics, and Operations through a Digital Lens.*
+
+---
+
+## 🧭 Quick Navigation
+*Select a portal to begin browsing my notes and insights.*
 
 <div class="grid cards" markdown>
 
--   :material-chart-line:{ .lg .middle } __Market Insights__
-
+-   :material-chart-line:{ .lg .middle } __Market News__
     ---
+    Daily digest of global market movements and financial headlines.
+    [:octicons-arrow-right-24: View News](Market_News/Nov%206th.md)
 
-    Daily digest of global market movements and financial news.
-
-    [:octicons-arrow-right-24: View Market News](Market_News/Nov 6th.md)
-
--   :material-bank:{ .lg .middle } __Finance & Economics__
-
+-   :material-bank:{ .lg .middle } __Finance & Econ__
     ---
+    Macroeconomics, Derivatives, and Corporate Finance synthesis.
+    [:octicons-arrow-right-24: 2025 Fall Notes](ECON2123/Ch1%262%20-%20Overview.md)
 
-    Deep dives into Macroeconomics, Derivative Securities, and Corporate Finance.
-
-    [:octicons-arrow-right-24: Explore 2025 Fall](ECON2123/Ch1&2 - Overview.md)
-
--   :material-factory:{ .lg .middle } __Operations & Management__
-
+-   :material-factory:{ .lg .middle } __Operations__
     ---
+    Process Analysis, Supply Chain, and Inventory Management (ISOM2700).
+    [:octicons-arrow-right-24: View Ops](ISOM2700/Process_Analysis.md)
 
-    Optimizing processes, quality control, and understanding organizational behavior.
-
-    [:octicons-arrow-right-24: Operational Excellence](ISOM2700/Process_Analysis.md)
-
--   :material-lightbulb-on:{ .lg .middle } __Quick Reference__
-
+-   :material-lightbulb-on:{ .lg .middle } __Cheat Sheets__
     ---
-
-    Condensed "Cheat Sheets" for high-stakes exam preparation and formulas.
-
-    [:octicons-arrow-right-24: FINA3103 Cheat Sheet](FINA3103/Cheatsheet.md)
+    Condensed formulas and high-density review for exams.
+    [:octicons-arrow-right-24: Get Prepared](FINA3103/Cheatsheet.md)
 
 </div>
 
 ---
 
-## 🎯 About This Blog
+## 📖 About This Website
 
-Welcome! I am **Chen Hejian (Jermaine)**. This space serves as my digital garden where I synthesize my studies at the intersection of **Finance** and **Operations**. 
+This site primarily contains my course notes and random blogs worth sharing. You are welcome to browse at your discretion.
 
-Using a combination of [Obsidian](https://obsidian.md) for note-taking and [MkDocs](https://www.mkdocs.org) for publishing, I aim to create a structured, searchable, and mathematically rigorous knowledge base.
+!!! info "Intellectual Property & Accuracy"
+    The intellectual property rights of the course notes ultimately belong to the **instructors at HKUST**. I may remove content at any time if requested. Please note that content may contain inaccuracies—if you notice an error, I’d appreciate your feedback!
 
-### 🛠️ Study Framework
+### 🖱️ How to Browse
+=== "💻 PC"
+    Select a **Topic** from the tab bar at the top, then choose an **Article** from the directory on the left.
+=== "📱 Mobile"
+    Tap the **Menu icon** (top-left) to select a topic and article. Use the search icon for keywords.
 
+---
 
-[Image of knowledge management workflow]
+## 🛠️ The Workflow
+*How I build this digital garden using Markdown and Automation.*
+
 
 
 ```mermaid
 graph LR
-  A[Class Lectures] --> B(Obsidian Notes);
-  B --> C{Synthesize};
-  C --> D[Market Analysis];
-  C --> E[Theory & Math];
-  D --> F[MkDocs Blog];
-  E --> F;
+  A[Obsidian] -- Edit --> B[GitHub Repo];
+  B -- CI/CD --> C[GitHub Actions];
+  C -- Build --> D[MkDocs Material];
+  D -- Deploy --> E[Live Website];
+  style E fill:#3f51b5,color:#fff
 
 ```
 
----
+I primarily use **Obsidian** to manage notes. The site is generated via **MkDocs** and hosted on **GitHub Pages**.
 
-## ⚡ Quick Links
+??? abstract "View Directory Structure"
+`text $ tree -a . ├── .obsidian                 # Obsidian configuration ├── JermaineChen404.github.io     ├── .github/workflows      # Auto-publish scripts     ├── docs/                  # Markdown source files     |   └── index.md     └── mkdocs.yml             # Theme & Plugin settings `
 
-| Category | Primary Focus | Status |
-| --- | --- | --- |
-| **ECON2123** | Macroeconomic Models (IS-LM, AS-AD) | 🟢 Active |
-| **FINA3203** | Derivatives, Forwards & Swaps | 🟡 In Progress |
-| **ISOM2700** | Supply Chain & Inventory | 🟢 Active |
-| **Cheat Sheets** | Formulas & Exam Prep | 🔥 High Priority |
+!!! warning "Markdown Compatibility"
+Obsidian supports special syntax (like Wikilinks). I aim for standard Markdown, but use MkDocs plugins to bridge the gap where necessary.
 
 ---
-
-!!! danger "Don't click me"
-I warned you... but since you're here, you might as well check out the [secret section](Don't click me.md).
 
 <div align="center">
 <a href="https://github.com/JermaineChen404">
@@ -93,4 +90,5 @@ I warned you... but since you're here, you might as well check out the [secret s
 </a>
 </div>
 
-
+!!! danger "Don't click me"
+Seriously... [I wouldn't if I were you](https://www.google.com/search?q=Don%27t%2520click%2520me.md).

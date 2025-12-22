@@ -54,6 +54,5 @@ This site primarily contains my course notes and random blogs worth sharing. You
 
 ---
 
-
 ??? danger "Don't click me"
 	Seriously... [I wouldn't if I were you](https://jermainechen404.github.io/Don't%20click%20me.md).

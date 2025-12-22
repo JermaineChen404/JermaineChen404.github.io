@@ -56,9 +56,6 @@ This site primarily contains my course notes and random blogs worth sharing. You
 ---
 
 ## 🛠️ The Workflow
-*How I build this digital garden using Markdown and Automation.*
-
-
 
 ```mermaid
 graph LR

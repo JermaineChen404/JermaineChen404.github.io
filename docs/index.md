@@ -73,7 +73,9 @@ graph LR
 I primarily use **Obsidian** to manage notes. The site is generated via **MkDocs** and hosted on **GitHub Pages**.
 
 ??? abstract "View Directory Structure"
-```text $ tree -a . ├── .obsidian                 # Obsidian configuration ├── JermaineChen404.github.io     ├── .github/workflows      # Auto-publish scripts     ├── docs/                  # Markdown source files     |   └── index.md     └── mkdocs.yml             # Theme & Plugin settings ```
+```text
+$ tree -a . ├── .obsidian                 # Obsidian configuration ├── JermaineChen404.github.io     ├── .github/workflows      # Auto-publish scripts     ├── docs/                  # Markdown source files     |   └── index.md     └── mkdocs.yml             # Theme & Plugin settings
+```
 
 !!! warning "Markdown Compatibility"
 Obsidian supports special syntax (like Wikilinks). I aim for standard Markdown, but use MkDocs plugins to bridge the gap where necessary.

@@ -108,6 +108,7 @@ theme:
     # 打开 Tab 时左侧目录全部展开
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
     - navigation.expand
+    - navigation.sections
     # 搜索输入一些字母时推荐补全整个单词
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
     - search.suggest
@@ -170,6 +171,12 @@ plugins:
   - obsidian-bridge
   - glightbox
 markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.tabbed: # <--- Highly recommended for study notes
+      alternate_style: true 
+  # ... (keep your other extensions like superfences, etc.)
   # [数学公式支持]
   # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
   - pymdownx.arithmatex:

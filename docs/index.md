@@ -1,45 +1,96 @@
-# 你好呀
-## Where u at?
-The is a [personal website](https://jermainechen404.github.io) created by Chen Hejian (Jermaine).
+---
+hide:
+  - navigation
+  - toc
+---
 
-## What can be found here?
-This website primarily contains my course notes and random blogs that I feel worth sharing. You are welcome to browse at your discretion. However, **the intellectual property rights of the course notes ultimately belong to the instructor of my course at HKUST**. I may remove the relevant content at any time if requested to do so. The content may contain inaccuracies. If you notice any errors or flaws, please contact me. Thank you very much.
+# <span class="twemoji">🚀</span> Jermaine's Knowledge Hub
 
-## How to browse it?
-- Browse articles by topic and directory.  
-    - **PC**: Select a topic from the tab bar at the top, and choose an article from the directory on the left.  
-    - **Mobile**: Tap the icon in the upper left corner to select a topic and article.  
-- Search for articles by keyword.
+<div class="grid cards" markdown>
+
+-   :material-chart-line:{ .lg .middle } __Market Insights__
+
+    ---
+
+    Daily digest of global market movements and financial news.
+
+    [:octicons-arrow-right-24: View Market News](Market_News/Nov 6th.md)
+
+-   :material-bank:{ .lg .middle } __Finance & Economics__
+
+    ---
+
+    Deep dives into Macroeconomics, Derivative Securities, and Corporate Finance.
+
+    [:octicons-arrow-right-24: Explore 2025 Fall](ECON2123/Ch1&2 - Overview.md)
+
+-   :material-factory:{ .lg .middle } __Operations & Management__
+
+    ---
+
+    Optimizing processes, quality control, and understanding organizational behavior.
+
+    [:octicons-arrow-right-24: Operational Excellence](ISOM2700/Process_Analysis.md)
+
+-   :material-lightbulb-on:{ .lg .middle } __Quick Reference__
+
+    ---
+
+    Condensed "Cheat Sheets" for high-stakes exam preparation and formulas.
+
+    [:octicons-arrow-right-24: FINA3103 Cheat Sheet](FINA3103/Cheatsheet.md)
+
+</div>
 
 ---
-## About me
-I am a year 2 student studying in School of Business and Management, Hong Kong University of Science and Technology. You can find my [Github](https://github.com/JermaineChen404) and [LinkedIn](https://www.linkedin.com/in/hejian-chen-b4945a35b/) at the footnote.
 
-## Workflow
-Here is the workflow of this website for those whom may be interested in:
+## 🎯 About This Blog
 
-All of the contents are written in **Markdown**. I primarily use [Obsidian](https://obsidian.md/) to edit and manage my notes since it has a vibrant community and can be easily synced across platforms.
+Welcome! I am **Chen Hejian (Jermaine)**. This space serves as my digital garden where I synthesize my studies at the intersection of **Finance** and **Operations**. 
 
->[!warning] Reminder
-> Obsidian supports some special markdown syntaxes that might be invalid elsewhere. My solution is to use standard Markdown if possible; otherwise, additional plugins are needed.
+Using a combination of [Obsidian](https://obsidian.md) for note-taking and [MkDocs](https://www.mkdocs.org) for publishing, I aim to create a structured, searchable, and mathematically rigorous knowledge base.
 
-The website is built with [MkDocs](https://www.mkdocs.org/). Workload is greatly simplified since it can generate static sites based on Markdown files smoothly. [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/) is used as the theme.
+### 🛠️ Study Framework
 
-The website is published via [GitHub Pages](https://docs.github.com/en/pages). Therefore, the website will be updated once I edit and commit.
 
-The structure is:
+[Image of knowledge management workflow]
+
+
+```mermaid
+graph LR
+  A[Class Lectures] --> B(Obsidian Notes);
+  B --> C{Synthesize};
+  C --> D[Market Analysis];
+  C --> E[Theory & Math];
+  D --> F[MkDocs Blog];
+  E --> F;
 
 ```
-$ tree -a
-.
-├── .obsidian
-├── JermaineChen404.github.io
-	├── .github
-	|   ├── .DS_Store
-	|   └── workflows
-	|       └── PublishMySite.yml
-	├── docs
-	|   └── index.md
-	└── mkdocs.yml
-```
+
+---
+
+## ⚡ Quick Links
+
+| Category | Primary Focus | Status |
+| --- | --- | --- |
+| **ECON2123** | Macroeconomic Models (IS-LM, AS-AD) | 🟢 Active |
+| **FINA3203** | Derivatives, Forwards & Swaps | 🟡 In Progress |
+| **ISOM2700** | Supply Chain & Inventory | 🟢 Active |
+| **Cheat Sheets** | Formulas & Exam Prep | 🔥 High Priority |
+
+---
+
+!!! danger "Don't click me"
+I warned you... but since you're here, you might as well check out the [secret section](Don't click me.md).
+
+<div align="center">
+<a href="https://github.com/JermaineChen404">
+<img src="https://www.google.com/search?q=https://img.shields.io/github/followers/JermaineChen404%3Fstyle%3Dsocial" alt="GitHub">
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/hejian-chen-b4945a35b/">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-blue%3Fstyle%3Dflat%26logo%3Dlinkedin" alt="LinkedIn">
+</a>
+</div>
+
 

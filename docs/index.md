@@ -73,22 +73,12 @@ graph LR
 I primarily use **Obsidian** to manage notes. The site is generated via **MkDocs** and hosted on **GitHub Pages**.
 
 ??? abstract "View Directory Structure"
-`text $ tree -a . ├── .obsidian                 # Obsidian configuration ├── JermaineChen404.github.io     ├── .github/workflows      # Auto-publish scripts     ├── docs/                  # Markdown source files     |   └── index.md     └── mkdocs.yml             # Theme & Plugin settings `
+```text $ tree -a . ├── .obsidian                 # Obsidian configuration ├── JermaineChen404.github.io     ├── .github/workflows      # Auto-publish scripts     ├── docs/                  # Markdown source files     |   └── index.md     └── mkdocs.yml             # Theme & Plugin settings ```
 
 !!! warning "Markdown Compatibility"
 Obsidian supports special syntax (like Wikilinks). I aim for standard Markdown, but use MkDocs plugins to bridge the gap where necessary.
 
 ---
 
-<div align="center">
-<a href="https://github.com/JermaineChen404">
-<img src="https://www.google.com/search?q=https://img.shields.io/github/followers/JermaineChen404%3Fstyle%3Dsocial" alt="GitHub">
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/hejian-chen-b4945a35b/">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-Connect-blue%3Fstyle%3Dflat%26logo%3Dlinkedin" alt="LinkedIn">
-</a>
-</div>
-
 !!! danger "Don't click me"
-Seriously... [I wouldn't if I were you](https://www.google.com/search?q=Don%27t%2520click%2520me.md).
+Seriously... [I wouldn't if I were you](https://jermainechen404.github.io/Don't%20click%20me.md).

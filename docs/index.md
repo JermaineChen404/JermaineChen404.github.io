@@ -7,7 +7,6 @@ hide:
 # <span class="twemoji">🚀</span> 你好呀 | Welcome to Jermaine's Hub
 
 **Chen Hejian (Jermaine)** • Year 2 Business Student @ HKUST  
-*Synthesizing Finance, Economics, and Operations through a Digital Lens.*
 
 ---
 
@@ -55,29 +54,6 @@ This site primarily contains my course notes and random blogs worth sharing. You
 
 ---
 
-## 🛠️ The Workflow
 
-```mermaid
-graph LR
-  A[Obsidian] -- Edit --> B[GitHub Repo];
-  B -- CI/CD --> C[GitHub Actions];
-  C -- Build --> D[MkDocs Material];
-  D -- Deploy --> E[Live Website];
-  style E fill:#3f51b5,color:#fff
-
-```
-
-I primarily use **Obsidian** to manage notes. The site is generated via **MkDocs** and hosted on **GitHub Pages**.
-
-??? abstract "View Directory Structure"
-```text
-$ tree -a . ├── .obsidian                 # Obsidian configuration ├── JermaineChen404.github.io     ├── .github/workflows      # Auto-publish scripts     ├── docs/                  # Markdown source files     |   └── index.md     └── mkdocs.yml             # Theme & Plugin settings
-```
-
-!!! warning "Markdown Compatibility"
-Obsidian supports special syntax (like Wikilinks). I aim for standard Markdown, but use MkDocs plugins to bridge the gap where necessary.
-
----
-
-!!! danger "Don't click me"
-Seriously... [I wouldn't if I were you](https://jermainechen404.github.io/Don't%20click%20me.md).
+??? danger "Don't click me"
+	Seriously... [I wouldn't if I were you](https://jermainechen404.github.io/Don't%20click%20me.md).

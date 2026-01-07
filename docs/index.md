@@ -11,7 +11,7 @@ hide:
 ---
 
 ## 🧭 Quick Navigation
-*Select a portal to begin browsing my notes and insights.*
+*Select a portal to begin browsing my notes.*
 
 <div class="grid cards" markdown>
 

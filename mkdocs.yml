@@ -5,68 +5,6 @@ site_url: https://JermaineChen404.github.io
 site_author: Chen Hejian (Jermaine)
 site_description: Blog by Chen Hejian (Jermaine)
 
-# [Navigtion]
-nav:
-  - Home: index.md
-  - Market News:
-    - Market_News/Nov 6th.md
-    - Market_News/Nov 5th.md
-    - Market_News/Nov 4th.md
-    - Market_News/Nov 3rd.md
-    - Market_News/Oct 13.md
-    - Market_News/Sep 3rd.md
-    - Market_News/Sep 4th.md
-    - Market_News/Sep 8th.md
-    - Market_News/Sep 9th.md
-    - Market_News/Sep 10th.md
-    - Market_News/Sep 11th.md
-    - Market_News/Sep 16th.md
-    - Market_News/Sep 18th.md
-  - 2025 Fall:
-    - ECON2123 Macroeconomics:
-      - 1 Overview: ECON2123/Ch1&2 - Overview.md
-      - 2 The Goods Market: ECON2123/Ch3 - The Goods Market.md
-      - 3 Financial Markets: ECON2123/Ch4 - Financial Markets.md
-      - 4 The IS-LM Model: ECON2123/Ch5 - The IS-LM Model.md
-      - 5 The Labor Market: ECON2123/Ch6 - The Labor Market.md
-      - 6 The AS-AD Model: ECON2123/Ch7 - The AS-AD Model.md
-      - 7 Openness in Goods and Financial Markets: ECON2123/Ch18 - Openness in Goods and Financial Markets.md
-      - 8 The Goods Market in an Open Economy: ECON2123/Ch19 - The Goods Market in an Open Economy.md
-      - 9 Output, the Interest Rate, and the Exchange Rate: ECON2123/Ch20 - Output, the Interest Rate, and the Exchange Rate.md
-    - FINA3103 Intermediate Investment:
-      - 0 Cheat Sheet: FINA3103/Cheatsheet.md
-    - FINA3203 Derivative Securities:
-      - 1 Intro to Derivative: FINA3203/Intro to Derivative.md
-      - 2 Forward and Futures Contracts: FINA3203/Forward and Futures Contracts.md
-      - 3 Forwards and Futures on Commodities: FINA3203/Forwards and Futures on Commodities.md
-      - 4 Forwards and Futures on Currencies: FINA3203/Forwards and Futures on Currencies.md
-      - 5 Forwards and Futures on Interest Rates: FINA3203/Forwards and Futures on Interest Rates.md
-      - 6 Swaps: FINA3203/Swaps.md
-      - 7 Intro to Options: FINA3203/Options.md
-    - FINA3303 Intermediate Corporate Finance:
-      - 0 Cheat Sheet: FINA3303/Cheatsheet.md
-      - 1 Capital Structure: FINA3303/T1 - Capital Structure.md
-      - 2 Capital Budgeting and Valuation: FINA3303/T2 - Capital Budgeting and Valuation.md
-      - 3 Estimating WACC: FINA3303/T6 - Estimating WACC.md
-      - 4 Modeling: FINA3303/T7 - Modeling.md
-      - 5 Estimating Growth Rates: FINA3303/T8a - Estimating Growth Rates.md
-      - 6 Estimating Terminal Value: FINA3303/T8b - Estimating Terminal Value.md
-      - 7 Working Capital Management: FINA3303/T9 - Working Capital Management.md
-      - 8 Short Term Financial Planning: FINA3303/T10 - Short Term Financial Planning.md
-      - 9 Payout Policy: FINA3303/T11 - Payout Policy.md
-      - 10 Private Equity: FINA3303/T12 - Private Equity.md
-    - ISOM2700 Operation Management:
-      - 1 Process Analysis: ISOM2700/Process_Analysis.md
-      - 2 Quality Management: ISOM2700/Quality_Management.md
-      - 3 Capacity Planning: ISOM2700/Capacity_Planning.md
-      - 4 Service Management: ISOM2700/Service_Management.md
-      - 5 Inventory Management: ISOM2700/Inventory Management.md
-      - 6 Demand & Revenue Management: ISOM2700/Demand & Revenue Management.md
-      - 7 Supply Chain Management: ISOM2700/Supply Chain Management.md
-    - MGMT2110 Organizational Behavior:
-      - Final Review: MGMT2110/Final Review.md
-  - Dont't click me:
-    - Dont't click me: Don't click me.md
 # [UI]
 # [top]
 theme:
@@ -117,6 +55,10 @@ theme:
     # [点击按钮跳转至 GitHub 修改 Markdown 源文件]
     # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#code-actions
     - content.action.edit
+    - content.action.view
+    - navigation.path
+    - navigation.prune
+    - navigation.tracking
   language: en # 一些提示性的文字会变成中文
   icon:
     # [添加 GitHub 仓库]
@@ -237,3 +179,66 @@ extra_css:
   # 无序列表符号自定义
   - mkdocs/css/unordered-list-symbols.css
   - https://unpkg.com/katex@0/dist/katex.min.css
+
+  # [Navigtion]
+nav:
+  - Home: index.md
+  - Market News:
+    - Market_News/Nov 6th.md
+    - Market_News/Nov 5th.md
+    - Market_News/Nov 4th.md
+    - Market_News/Nov 3rd.md
+    - Market_News/Oct 13.md
+    - Market_News/Sep 3rd.md
+    - Market_News/Sep 4th.md
+    - Market_News/Sep 8th.md
+    - Market_News/Sep 9th.md
+    - Market_News/Sep 10th.md
+    - Market_News/Sep 11th.md
+    - Market_News/Sep 16th.md
+    - Market_News/Sep 18th.md
+  - 2025 Fall:
+    - ECON2123 Macroeconomics:
+      - 1 Overview: ECON2123/Ch1&2 - Overview.md
+      - 2 The Goods Market: ECON2123/Ch3 - The Goods Market.md
+      - 3 Financial Markets: ECON2123/Ch4 - Financial Markets.md
+      - 4 The IS-LM Model: ECON2123/Ch5 - The IS-LM Model.md
+      - 5 The Labor Market: ECON2123/Ch6 - The Labor Market.md
+      - 6 The AS-AD Model: ECON2123/Ch7 - The AS-AD Model.md
+      - 7 Openness in Goods and Financial Markets: ECON2123/Ch18 - Openness in Goods and Financial Markets.md
+      - 8 The Goods Market in an Open Economy: ECON2123/Ch19 - The Goods Market in an Open Economy.md
+      - 9 Output, the Interest Rate, and the Exchange Rate: ECON2123/Ch20 - Output, the Interest Rate, and the Exchange Rate.md
+    - FINA3103 Intermediate Investment:
+      - 0 Cheat Sheet: FINA3103/Cheatsheet.md
+    - FINA3203 Derivative Securities:
+      - 1 Intro to Derivative: FINA3203/Intro to Derivative.md
+      - 2 Forward and Futures Contracts: FINA3203/Forward and Futures Contracts.md
+      - 3 Forwards and Futures on Commodities: FINA3203/Forwards and Futures on Commodities.md
+      - 4 Forwards and Futures on Currencies: FINA3203/Forwards and Futures on Currencies.md
+      - 5 Forwards and Futures on Interest Rates: FINA3203/Forwards and Futures on Interest Rates.md
+      - 6 Swaps: FINA3203/Swaps.md
+      - 7 Intro to Options: FINA3203/Options.md
+    - FINA3303 Intermediate Corporate Finance:
+      - 0 Cheat Sheet: FINA3303/Cheatsheet.md
+      - 1 Capital Structure: FINA3303/T1 - Capital Structure.md
+      - 2 Capital Budgeting and Valuation: FINA3303/T2 - Capital Budgeting and Valuation.md
+      - 3 Estimating WACC: FINA3303/T6 - Estimating WACC.md
+      - 4 Modeling: FINA3303/T7 - Modeling.md
+      - 5 Estimating Growth Rates: FINA3303/T8a - Estimating Growth Rates.md
+      - 6 Estimating Terminal Value: FINA3303/T8b - Estimating Terminal Value.md
+      - 7 Working Capital Management: FINA3303/T9 - Working Capital Management.md
+      - 8 Short Term Financial Planning: FINA3303/T10 - Short Term Financial Planning.md
+      - 9 Payout Policy: FINA3303/T11 - Payout Policy.md
+      - 10 Private Equity: FINA3303/T12 - Private Equity.md
+    - ISOM2700 Operation Management:
+      - 1 Process Analysis: ISOM2700/Process_Analysis.md
+      - 2 Quality Management: ISOM2700/Quality_Management.md
+      - 3 Capacity Planning: ISOM2700/Capacity_Planning.md
+      - 4 Service Management: ISOM2700/Service_Management.md
+      - 5 Inventory Management: ISOM2700/Inventory Management.md
+      - 6 Demand & Revenue Management: ISOM2700/Demand & Revenue Management.md
+      - 7 Supply Chain Management: ISOM2700/Supply Chain Management.md
+    - MGMT2110 Organizational Behavior:
+      - Final Review: MGMT2110/Final Review.md
+  - Dont't click me:
+    - Dont't click me: Don't click me.md

@@ -199,6 +199,7 @@ nav:
     - Market_News/Sep 18th.md
   - 2025 Fall:
     - ECON2123 Macroeconomics:
+      - ECON2123/index.md
       - 1 Overview: ECON2123/Ch1&2 - Overview.md
       - 2 The Goods Market: ECON2123/Ch3 - The Goods Market.md
       - 3 Financial Markets: ECON2123/Ch4 - Financial Markets.md
@@ -219,6 +220,7 @@ nav:
       - 6 Swaps: FINA3203/Swaps.md
       - 7 Intro to Options: FINA3203/Options.md
     - FINA3303 Intermediate Corporate Finance:
+      - FINA3303/index.md
       - 0 Cheat Sheet: FINA3303/Cheatsheet.md
       - 1 Capital Structure: FINA3303/T1 - Capital Structure.md
       - 2 Capital Budgeting and Valuation: FINA3303/T2 - Capital Budgeting and Valuation.md

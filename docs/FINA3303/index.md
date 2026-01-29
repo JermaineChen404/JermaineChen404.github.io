@@ -1,25 +1,8 @@
-# FINA3303 - Intermediate Corporate Finance (Fall 2025)
+# FINA3303 - Intermediate Corporate Finance
 
 !!! info "Course Info"
-    - **Instructor:** Dr. Ekkachai Saenyasiri, PhD, CFA  
-    - **Course Dates:** Sep 1 – Nov 29, 2025  
-    - **Prerequisites:** FINA 2203 or FINA 2303  
-    - **Course Website:** Canvas (https://canvas.ust.hk)  
-    - **Textbook:** *Fundamentals of Corporate Finance, Global Edition, 6/e* by Berk, DeMarzo, Harford  
-
-    **Assessment Overview**  
-    - Assignments (6 total): 24%  
-    - Peer Evaluation: 5%  
-    - Midterm Exam: 25% (Week 8, Oct. 25, 18:30–21:30)  
-    - Final Exam: 46% (Dec. 8–19, cumulative)   
-
-    ??? info "Exam Scope and Format"
-        - **Midterm Exam:**  
-        - Coverage: Capital structure, valuation, cost of capital, payout policy, working capital.  
-        - Format: Closed-book, one double-sided A4 cheat sheet allowed, calculator permitted.  
-
-        - **Final Exam:**  
-        - Coverage: Entire course (capital structure, valuation, WACC, modeling, payout, working capital, equity financing).   
+    - **Instructor:** Dr. Ekkachai Saenyasiri, PhD, CFA
+    - **Textbook:** *Fundamentals of Corporate Finance, Global Edition, 6/e* by Berk, DeMarzo, Harford
 
 !!! abstract "目录"
 
@@ -33,9 +16,4 @@
     - [Working Capital Management](FINA3303/T9 - Working Capital Management.md)
     - [Short Term Financial Planning](FINA3303/T10 - Short Term Financial Planning.md)
     - [Payout Policy](FINA3303/T11 - Payout Policy.md)
-    - [Private Equity](FINA3303/T12 - Private Equity.md)
-
-!!! recommend "References"
-    - **Primary Textbook:** *Fundamentals of Corporate Finance, Global Edition, 6/e* by Berk, DeMarzo, Harford  
-    - **Supplementary Materials:** Lecture slides and case studies (Canvas)   
-    - **Additional Reading:** Corporate Finance by Berk & DeMarzo (selected chapters 14, 16–20)  
+    - [Private Equity](FINA3303/T12 - Private Equity.md)  

@@ -1,23 +1,8 @@
-# ECON 2123 - Macroeconomics (Fall 2025)
+# ECON2123 - Macroeconomics
 
 !!! info "Course Info"
-    - **Instructor:** Fei DING (LSK 6084)    
-    - **Textbook:** *Macroeconomics Global Edition* by Olivier Blanchard (6th edition preferred)  
-
-    **Assessment Overview**  
-    
-    - Assignments: 20% (4 problem sets + 6 quizzes)  
-    - Exams: 80% (Midterm + Final, cumulative)  
-    - Multiple grading schemes available (best outcome applied).  
-
-    ??? info "Exam Scope and Format"
-        - **Midterm Exam:** Oct. 15, 7:30–8:30pm, onsite at HKUST.  
-        - Coverage: Short-run closed economy (IS–LM model).  
-        - Format: Multiple-choice + short-answer.  
-
-        - **Final Exam:** Cumulative, scheduled by ARRO.  
-        - Coverage: Entire course (short run, medium run, optional long run).  
-        - Format: Multiple-choice, short-answer, and quantitative problems (graphs, algebra).  
+    - **Instructor:** Fei DING
+    - **Textbook:** *Macroeconomics Global Edition* by Olivier Blanchard
 
 !!! abstract "目录"
 

@@ -1,18 +1,9 @@
-# FINA3203 - Derivative Securities (Fall 2025)
+# FINA3203 - Derivative Securities
 
 !!! info "Course Info"
     - **Course Code:** FINA3203
     - **Title:** Derivative Securities
-    - **Term:** Fall 2025
     - **Level:** Intermediate
-
-    **Key Topics**
-    - Forward and futures contracts
-    - Options and option trading strategies
-    - Binomial tree models for option pricing
-    - Black-Scholes-Merton model
-    - Delta hedging and Greeks
-    - Risk management with derivatives
 
 !!! abstract "目录"
 

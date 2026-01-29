@@ -219,6 +219,11 @@ nav:
       - 5 Forwards and Futures on Interest Rates: FINA3203/Forwards and Futures on Interest Rates.md
       - 6 Swaps: FINA3203/Swaps.md
       - 7 Intro to Options: FINA3203/Options.md
+      - 8 Option Trading Strategies: FINA3203/Option Trading Strategies.md
+      - 9 Binomial Tree Models: FINA3203/Binomial Tree Models.md
+      - 10 Multi-step Binomial Tree Models: FINA3203/Multi-step Binomial Tree Models.md
+      - 11 The Black-Scholes-Merton Model: FINA3203/The Black-Scholes-Merton Model.md
+      - 12 Delta Hedging in the BSM Model: FINA3203/Delta Hedging in the BSM Model.md
     - FINA3303 Intermediate Corporate Finance:
       - FINA3303/index.md
       - 0 Cheat Sheet: FINA3303/Cheatsheet.md
@@ -233,6 +238,7 @@ nav:
       - 9 Payout Policy: FINA3303/T11 - Payout Policy.md
       - 10 Private Equity: FINA3303/T12 - Private Equity.md
     - ISOM2700 Operation Management:
+      - ISOM2700/index.md
       - 1 Process Analysis: ISOM2700/Process_Analysis.md
       - 2 Quality Management: ISOM2700/Quality_Management.md
       - 3 Capacity Planning: ISOM2700/Capacity_Planning.md

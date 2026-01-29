@@ -1,11 +1,11 @@
 # ECON 2123 - Macroeconomics (Fall 2025)
 
 !!! info "Course Info"
-    - **Instructor:** Fei DING (LSK 6084)  
-    - **Course Website:** Canvas (materials, announcements, quizzes)  
+    - **Instructor:** Fei DING (LSK 6084)    
     - **Textbook:** *Macroeconomics Global Edition* by Olivier Blanchard (6th edition preferred)  
 
     **Assessment Overview**  
+    
     - Assignments: 20% (4 problem sets + 6 quizzes)  
     - Exams: 80% (Midterm + Final, cumulative)  
     - Multiple grading schemes available (best outcome applied).  

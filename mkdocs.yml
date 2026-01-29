@@ -210,12 +210,14 @@ nav:
       - 8 The Goods Market in an Open Economy: ECON2123/Ch19 - The Goods Market in an Open Economy.md
       - 9 Output, the Interest Rate, and the Exchange Rate: ECON2123/Ch20 - Output, the Interest Rate, and the Exchange Rate.md
     - FINA3103 Intermediate Investment:
+      - FINA3103/index.md
       - 0 Cheat Sheet: FINA3103/Cheatsheet.md
       - 1 Trading Securities: FINA3103/Trading Securities.md
       - 2 Mean-Variance Portfolio Analysis: FINA3103/Mean-Variance Portfolio Analysis.md
       - 3 Capital Asset Pricing Model: FINA3103/Capital Asset Pricing Model.md
       - 4 Factor Models: FINA3103/Factor Models.md
     - FINA3203 Derivative Securities:
+      - FINA3203/index.md
       - 1 Intro to Derivative: FINA3203/Intro to Derivative.md
       - 2 Forward and Futures Contracts: FINA3203/Forward and Futures Contracts.md
       - 3 Forwards and Futures on Commodities: FINA3203/Forwards and Futures on Commodities.md
@@ -251,6 +253,7 @@ nav:
       - 6 Demand & Revenue Management: ISOM2700/Demand & Revenue Management.md
       - 7 Supply Chain Management: ISOM2700/Supply Chain Management.md
     - MGMT2110 Organizational Behavior:
+      - MGMT2110/index.md
       - Final Review: MGMT2110/Final Review.md
   - Dont't click me:
     - Dont't click me: Don't click me.md

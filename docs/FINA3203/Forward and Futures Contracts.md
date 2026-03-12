@@ -137,11 +137,11 @@ $$e^{-r(T-t)}\times N_{0}\times(F_{t,T}-F_{0,T})$$
 ---
 Alternatively, replicating the portfolio we have
 
-||t|T|
+| |t|T|
 |---|---|---|
 |original long position|Value|$S_{T}-F_{0,T}$|
 
-||t|T|
+| |t|T|
 |---|---|---|
 |new long position|0|$S_{T}-F_{t,T}$|
 |PV of future payoff|$e^{-r(T-t)}(F_{t,T}-F_{0,T})$|$F_{t,T}-F_{0,T}$|

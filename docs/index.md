@@ -4,55 +4,103 @@ hide:
   - toc
 ---
 
-# <span class="twemoji">🚀</span> 你好呀 | Welcome to Jermaine's Hub
+<div class="home-shell">
+  <section class="home-hero home-reveal">
+    <span class="home-badge">Jermaine's Hub · Business Notes</span>
+    <h1 class="home-title">Learn faster with structured notes and market context.</h1>
+    <p class="home-subtitle">
+      Curated by Chen Hejian (Jermaine), HKUST Business. This site is built for
+      <span class="home-rotating" data-rotating-text>market intuition</span>.
+    </p>
 
-**Chen Hejian (Jermaine)** • Year 2 Business Student @ HKUST  
+    <div class="home-cta-row">
+      <a class="home-btn home-btn-primary" href="ECON2123/Ch1%262%20-%20Overview.md">Start 2025 Fall Notes</a>
+      <a class="home-btn home-btn-ghost" href="Market_News/Nov%206th.md">Open Latest Market News</a>
+    </div>
 
----
+    <div class="home-stats">
+      <div class="home-stat home-reveal">
+        <div class="home-stat-value" data-counter-target="5">0</div>
+        <div class="home-stat-label">Core course tracks</div>
+      </div>
+      <div class="home-stat home-reveal">
+        <div class="home-stat-value" data-counter-target="35">0</div>
+        <div class="home-stat-label">High-value review notes</div>
+      </div>
+      <div class="home-stat home-reveal">
+        <div class="home-stat-value" data-counter-target="13">0</div>
+        <div class="home-stat-label">Market news snapshots</div>
+      </div>
+    </div>
+  </section>
 
-## 🧭 Quick Navigation
-*Select a portal to begin browsing my notes.*
+  <section class="home-section home-reveal">
+    <h2 class="home-section-title">Explore by track</h2>
+    <p class="home-section-copy">Use filters to focus on exactly what you need for class prep or revision.</p>
 
-<div class="grid cards" markdown>
+    <div class="home-filters" role="tablist" aria-label="Homepage filters">
+      <button class="home-filter is-active" data-filter="all" type="button">All</button>
+      <button class="home-filter" data-filter="finance" type="button">Finance</button>
+      <button class="home-filter" data-filter="econ" type="button">Economics</button>
+      <button class="home-filter" data-filter="ops" type="button">Operations</button>
+      <button class="home-filter" data-filter="management" type="button">Management</button>
+      <button class="home-filter" data-filter="markets" type="button">Markets</button>
+    </div>
 
--   :material-chart-line:{ .lg .middle } __Market News__
-    ---
-    Daily digest of global market movements and financial headlines.
-    [:octicons-arrow-right-24: View News](Market_News/Nov%206th.md)
+    <div class="home-cards">
+      <article class="home-card home-reveal" data-track="markets finance">
+        <span class="home-card-tag">Markets</span>
+        <h3 class="home-card-title">Market News Digest</h3>
+        <p class="home-card-copy">Quick updates on macro and cross-asset signals, summarized for faster reading.</p>
+        <a class="home-card-link" href="Market_News/Nov%206th.md">Read latest</a>
+      </article>
 
--   :material-bank:{ .lg .middle } __Finance & Econ__
-    ---
-    Macroeconomics, Derivatives, and Corporate Finance synthesis.
-    [:octicons-arrow-right-24: 2025 Fall Notes](ECON2123/Ch1%262%20-%20Overview.md)
+      <article class="home-card home-reveal" data-track="econ">
+        <span class="home-card-tag">Economics</span>
+        <h3 class="home-card-title">ECON2123 Macroeconomics</h3>
+        <p class="home-card-copy">IS-LM, AS-AD, and open-economy topics, structured chapter by chapter.</p>
+        <a class="home-card-link" href="ECON2123/Ch1%262%20-%20Overview.md">Open ECON2123</a>
+      </article>
 
--   :material-factory:{ .lg .middle } __Operations__
-    ---
-    Process Analysis, Supply Chain, and Inventory Management (ISOM2700).
-    [:octicons-arrow-right-24: View Ops](ISOM2700/Process_Analysis.md)
+      <article class="home-card home-reveal" data-track="finance">
+        <span class="home-card-tag">Finance</span>
+        <h3 class="home-card-title">FINA3103 Investments</h3>
+        <p class="home-card-copy">Trading, portfolio theory, CAPM, and factor models with practical framing.</p>
+        <a class="home-card-link" href="FINA3103/Cheatsheet.md">Open cheat sheet</a>
+      </article>
 
--   :material-lightbulb-on:{ .lg .middle } __Cheat Sheets__
-    ---
-    Condensed formulas and high-density review for exams.
-    [:octicons-arrow-right-24: Get Prepared](FINA3103/Cheatsheet.md)
+      <article class="home-card home-reveal" data-track="finance">
+        <span class="home-card-tag">Finance</span>
+        <h3 class="home-card-title">FINA3203 Derivatives</h3>
+        <p class="home-card-copy">From forwards to BSM, with worked intuition for pricing and hedging.</p>
+        <a class="home-card-link" href="FINA3203/Intro%20to%20Derivative.md">Start derivatives</a>
+      </article>
 
+      <article class="home-card home-reveal" data-track="finance">
+        <span class="home-card-tag">Finance</span>
+        <h3 class="home-card-title">FINA3303 Corporate Finance</h3>
+        <p class="home-card-copy">Capital structure, WACC, modeling, payout policy, and valuation logic.</p>
+        <a class="home-card-link" href="FINA3303/Cheatsheet.md">Review FINA3303</a>
+      </article>
+
+      <article class="home-card home-reveal" data-track="ops">
+        <span class="home-card-tag">Operations</span>
+        <h3 class="home-card-title">ISOM2700 Operations Management</h3>
+        <p class="home-card-copy">Process analysis, quality, inventory, and supply chain decision tools.</p>
+        <a class="home-card-link" href="ISOM2700/Process_Analysis.md">Open ISOM2700</a>
+      </article>
+
+      <article class="home-card home-reveal" data-track="management">
+        <span class="home-card-tag">Management</span>
+        <h3 class="home-card-title">MGMT2110 Organizational Behavior</h3>
+        <p class="home-card-copy">Core theories and final review notes for behavior in organizations.</p>
+        <a class="home-card-link" href="MGMT2110/Final%20Review.md">Go to review</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="home-section home-reveal">
+    <h2 class="home-section-title">How to navigate fast</h2>
+    <p class="home-section-copy">Desktop: use top tabs plus left sidebar. Mobile: use the top-left menu and search icon for direct jumps.</p>
+  </section>
 </div>
-
----
-
-## 📖 About This Website
-
-This site primarily contains my course notes and random blogs worth sharing. You are welcome to browse at your discretion.
-
-!!! info "Intellectual Property & Accuracy"
-    The intellectual property rights of the course notes ultimately belong to the **instructors at HKUST**. I may remove content at any time if requested. Please note that content may contain inaccuracies—if you notice an error, I’d appreciate your feedback!
-
-### 🖱️ How to Browse
-=== "💻 PC"
-    Select a **Topic** from the tab bar at the top, then choose an **Article** from the directory on the left.
-=== "📱 Mobile"
-    Tap the **Menu icon** (top-left) to select a topic and article. Use the search icon for keywords.
-
----
-
-??? danger "Don't click me"
-	Seriously... [I wouldn't if I were you](https://jermainechen404.github.io/Don't%20click%20me.md).

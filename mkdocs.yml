@@ -165,6 +165,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
   - javascripts/mathjax.js
+  - javascripts/home.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
@@ -178,6 +179,7 @@ extra_css:
   - mkdocs/css/no-footer.css
   # 无序列表符号自定义
   - mkdocs/css/unordered-list-symbols.css
+  - mkdocs/css/home.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 
   # [Navigtion]
@@ -257,3 +259,4 @@ nav:
       - Final Review: MGMT2110/Final Review.md
   - Dont't click me:
     - Dont't click me: Don't click me.md
+

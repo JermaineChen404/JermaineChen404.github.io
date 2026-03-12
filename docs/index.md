@@ -14,8 +14,8 @@ hide:
     </p>
 
     <div class="home-cta-row">
-      <a class="home-btn home-btn-primary" href="ECON2123/Ch1%262%20-%20Overview.md">Start 2025 Fall Notes</a>
-      <a class="home-btn home-btn-ghost" href="Market_News/Nov%206th.md">Open Latest Market News</a>
+      <a class="home-btn home-btn-primary" href="ECON2123/">Start 2025 Fall Notes</a>
+      <a class="home-btn home-btn-ghost" href="Market_News/Nov%206th/">Open Latest Market News</a>
     </div>
 
     <div class="home-stats">
@@ -52,49 +52,49 @@ hide:
         <span class="home-card-tag">Markets</span>
         <h3 class="home-card-title">Market News Digest</h3>
         <p class="home-card-copy">Quick updates on macro and cross-asset signals, summarized for faster reading.</p>
-        <a class="home-card-link" href="Market_News/Nov%206th.md">Read latest</a>
+        <a class="home-card-link" href="Market_News/Nov%206th/">Read latest</a>
       </article>
 
       <article class="home-card home-reveal" data-track="econ">
         <span class="home-card-tag">Economics</span>
         <h3 class="home-card-title">ECON2123 Macroeconomics</h3>
         <p class="home-card-copy">IS-LM, AS-AD, and open-economy topics, structured chapter by chapter.</p>
-        <a class="home-card-link" href="ECON2123/Ch1%262%20-%20Overview.md">Open ECON2123</a>
+        <a class="home-card-link" href="ECON2123/">Open ECON2123</a>
       </article>
 
       <article class="home-card home-reveal" data-track="finance">
         <span class="home-card-tag">Finance</span>
         <h3 class="home-card-title">FINA3103 Investments</h3>
         <p class="home-card-copy">Trading, portfolio theory, CAPM, and factor models with practical framing.</p>
-        <a class="home-card-link" href="FINA3103/Cheatsheet.md">Open cheat sheet</a>
+        <a class="home-card-link" href="FINA3103/Cheatsheet/">Open cheat sheet</a>
       </article>
 
       <article class="home-card home-reveal" data-track="finance">
         <span class="home-card-tag">Finance</span>
         <h3 class="home-card-title">FINA3203 Derivatives</h3>
         <p class="home-card-copy">From forwards to BSM, with worked intuition for pricing and hedging.</p>
-        <a class="home-card-link" href="FINA3203/Intro%20to%20Derivative.md">Start derivatives</a>
+        <a class="home-card-link" href="FINA3203/">Start derivatives</a>
       </article>
 
       <article class="home-card home-reveal" data-track="finance">
         <span class="home-card-tag">Finance</span>
         <h3 class="home-card-title">FINA3303 Corporate Finance</h3>
         <p class="home-card-copy">Capital structure, WACC, modeling, payout policy, and valuation logic.</p>
-        <a class="home-card-link" href="FINA3303/Cheatsheet.md">Review FINA3303</a>
+        <a class="home-card-link" href="FINA3303/Cheatsheet/">Review FINA3303</a>
       </article>
 
       <article class="home-card home-reveal" data-track="ops">
         <span class="home-card-tag">Operations</span>
         <h3 class="home-card-title">ISOM2700 Operations Management</h3>
         <p class="home-card-copy">Process analysis, quality, inventory, and supply chain decision tools.</p>
-        <a class="home-card-link" href="ISOM2700/Process_Analysis.md">Open ISOM2700</a>
+        <a class="home-card-link" href="ISOM2700/">Open ISOM2700</a>
       </article>
 
       <article class="home-card home-reveal" data-track="management">
         <span class="home-card-tag">Management</span>
         <h3 class="home-card-title">MGMT2110 Organizational Behavior</h3>
         <p class="home-card-copy">Core theories and final review notes for behavior in organizations.</p>
-        <a class="home-card-link" href="MGMT2110/Final%20Review.md">Go to review</a>
+        <a class="home-card-link" href="MGMT2110/">Go to review</a>
       </article>
     </div>
   </section>
@@ -104,3 +104,4 @@ hide:
     <p class="home-section-copy">Desktop: use top tabs plus left sidebar. Mobile: use the top-left menu and search icon for direct jumps.</p>
   </section>
 </div>
+

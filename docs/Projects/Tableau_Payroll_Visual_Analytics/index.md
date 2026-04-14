@@ -12,22 +12,51 @@
   - Designed views to support practical decisions in hiring strategy, compensation planning, and workforce structure review.
 
 !!! warning "Before Publishing Final"
-    Replace the placeholder Tableau URL in this page with your real Tableau Public link.
+  If you publish a revised workbook version, update the embed URL and direct link below.
 
 ## Live Dashboard
 
-<div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto;">
-  <iframe
-    src="https://public.tableau.com/views/REPLACE_WITH_YOUR_WORKBOOK/MainDashboard?:showVizHome=no"
-    width="100%"
-    height="760"
-    frameborder="0"
-    allowfullscreen
-    title="Tableau Payroll Visual Analytics Dashboard">
-  </iframe>
+<div class='tableauPlaceholder' id='tableauVizPayroll' style='position: relative; width: 100%; max-width: 1200px; margin: 0 auto;'>
+  <noscript>
+    <a href='https://public.tableau.com/views/isom3330_project_2/CincinnatiWorkforceAnalyticsDashboard?:language=en-US&:display_count=n&:origin=viz_share_link'>
+      <img alt='Cincinnati Workforce Analytics Dashboard' src='https://public.tableau.com/static/images/is/isom3330_project_2/CincinnatiWorkforceAnalyticsDashboard/1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='isom3330_project_2/CincinnatiWorkforceAnalyticsDashboard' />
+    <param name='tabs' value='yes' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/is/isom3330_project_2/CincinnatiWorkforceAnalyticsDashboard/1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object>
 </div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('tableauVizPayroll');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  if (divElement.offsetWidth > 500) {
+    vizElement.style.minWidth = '420px';
+    vizElement.style.maxWidth = '100%';
+    vizElement.style.minHeight = '610px';
+    vizElement.style.maxHeight = (divElement.offsetWidth * 0.75) + 'px';
+  } else {
+    vizElement.style.width = '100%';
+    vizElement.style.minHeight = '1150px';
+    vizElement.style.maxHeight = (divElement.offsetWidth * 1.77) + 'px';
+  }
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
 
-- Direct link: [Open on Tableau Public](https://public.tableau.com/views/REPLACE_WITH_YOUR_WORKBOOK/MainDashboard?:showVizHome=no)
+- Direct link: [Open on Tableau Public](https://public.tableau.com/views/isom3330_project_2/CincinnatiWorkforceAnalyticsDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Business Question
 
@@ -156,8 +185,8 @@ Then insert them into this page where needed to provide static preview support f
 
 ## Final Publish Checklist
 
-1. Replace `REPLACE_WITH_YOUR_WORKBOOK` in this page's iframe URL.
-2. Replace `REPLACE_WITH_YOUR_WORKBOOK` in `docs/Projects/index.md` live dashboard link.
+1. Confirm embed and direct link open the same dashboard version.
+2. Update both this page and `docs/Projects/index.md` if workbook name/path changes.
 3. Upload static screenshot assets listed above.
 4. Run local build check:
 

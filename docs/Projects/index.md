@@ -17,7 +17,7 @@ A curated portfolio of data visualization and analytics work for recruiters and 
 An interactive Tableau project focused on salary structure, demographic composition, and workforce segmentation.
 
 - [Open case study](Tableau_Payroll_Visual_Analytics/index.md)
-- [Open live Tableau dashboard](https://public.tableau.com/views/REPLACE_WITH_YOUR_WORKBOOK/MainDashboard?:showVizHome=no)
+- [Open live Tableau dashboard](https://public.tableau.com/views/isom3330_project_2/CincinnatiWorkforceAnalyticsDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Upcoming
 

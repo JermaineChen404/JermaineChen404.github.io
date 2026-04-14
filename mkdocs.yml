@@ -199,6 +199,9 @@ nav:
     - Market_News/Sep 11th.md
     - Market_News/Sep 16th.md
     - Market_News/Sep 18th.md
+  - Projects:
+    - Projects/index.md
+    - Tableau Payroll Visual Analytics: Projects/Tableau_Payroll_Visual_Analytics/index.md
   - 2025 Fall:
     - ECON2123 Macroeconomics:
       - ECON2123/index.md
@@ -257,6 +260,16 @@ nav:
     - MGMT2110 Organizational Behavior:
       - MGMT2110/index.md
       - Final Review: MGMT2110/Final Review.md
+
+  - 2026 Spring:
+    - ISOM4520 Statistics for Financial Risk Management:
+      - ISOM4520/index.md
+      - 0 Course Overview: ISOM4520/Course Overview.md
+      - 1 Return, Volatility, and Diversification: ISOM4520/L1 - Return, Volatility, and Diversification.md
+      - 2 Modern Portfolio Theory: ISOM4520/L2 - Modern Portfolio Theory.md
+      - 3 CAPM: ISOM4520/L3 - CAPM.md
+      - 4 Time Series and Stochastic Volatility: ISOM4520/L4 - Time Series and Stochastic Volatility.md
+      - 5 Conditional Expectations and GARCH: ISOM4520/L5 - Conditional Expectations and GARCH.md
   - Dont't click me:
     - Dont't click me: Don't click me.md
 

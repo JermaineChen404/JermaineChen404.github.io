@@ -6,6 +6,11 @@
     - **Core Goal:** Turn payroll and workforce data into actionable, decision-ready insights
     - **Tools:** Tableau, calculated fields, table calculations, parameters, clustering
 
+!!! success "Recruiter Snapshot (60 Seconds)"
+  - Built a four-view Tableau dashboard to analyze compensation concentration, diversity profile, and tenure-salary segmentation.
+  - Implemented key analytics features required by coursework: reference line, table calculation, parameter control, calculated fields, and clustering.
+  - Designed views to support practical decisions in hiring strategy, compensation planning, and workforce structure review.
+
 !!! warning "Before Publishing Final"
     Replace the placeholder Tableau URL in this page with your real Tableau Public link.
 
@@ -27,6 +32,22 @@
 ## Business Question
 
 How can payroll, role structure, and diversity metrics be visualized so leaders can quickly identify pay concentration, demographic composition, and tenure-based role segmentation?
+
+## Data Scope and Preparation
+
+- Data level: employee payroll and workforce records, aggregated for dashboard views.
+- Key fields used: location, department, job title, age range, gender, race, annual salary, and `HIRE_DATE`.
+- Data preparation highlights:
+  - Standardized category labels for dimensions used in filters and grouping.
+  - Built calculated fields for tenure and parameter-driven metric selection.
+  - Applied analytical filters to focus on departments with meaningful representation.
+
+## Executive Insight Summary
+
+- Compensation concentration is not evenly distributed across locations and roles.
+- Payroll share by age and gender can diverge from headcount distribution, which is useful for equity review.
+- Diversity interpretation changes depending on whether the metric is pay level or employee count, so parameter switching is essential.
+- Tenure and salary clusters provide a compact view of workforce strata from entry-level to leadership roles.
 
 ## Dashboard Walkthrough
 
@@ -108,6 +129,12 @@ END
 - Designing visuals that balance readability and analytical depth
 - Communicating findings for hiring, compensation, and workforce strategy decisions
 
+## Resume-Ready Impact Bullets
+
+- Designed and delivered an interactive Tableau dashboard with 4 coordinated worksheets for payroll composition, diversity analytics, and tenure-salary segmentation.
+- Implemented advanced Tableau features including parameterized metric switching, percent-of-total table calculations, reference lines, and cluster-based role segmentation.
+- Translated raw workforce records into decision-ready insights for compensation concentration analysis and organizational planning.
+
 ## How to Interact
 
 1. Use the location and demographic filters to narrow the analysis scope.
@@ -126,3 +153,17 @@ Add these files to this folder before final release:
 - `attachments/ws4-cluster-scatter.png`
 
 Then insert them into this page where needed to provide static preview support for mobile users.
+
+## Final Publish Checklist
+
+1. Replace `REPLACE_WITH_YOUR_WORKBOOK` in this page's iframe URL.
+2. Replace `REPLACE_WITH_YOUR_WORKBOOK` in `docs/Projects/index.md` live dashboard link.
+3. Upload static screenshot assets listed above.
+4. Run local build check:
+
+```bash
+cd "Blog/JermaineChen404.github.io"
+python -m mkdocs build
+```
+
+5. Push updates to your feature branch and open a pull request.

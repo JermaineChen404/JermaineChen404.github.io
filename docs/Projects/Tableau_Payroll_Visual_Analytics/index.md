@@ -5,6 +5,7 @@
     - **Audience:** Recruiters, hiring managers, and analytics practitioners
     - **Core Goal:** Turn payroll and workforce data into actionable, decision-ready insights
     - **Tools:** Tableau, calculated fields, table calculations, parameters, clustering
+  - **Dataset Source:** City of Cincinnati Open Data portal
 
 !!! success "Recruiter Snapshot (60 Seconds)"
   - Built a four-view Tableau dashboard to analyze compensation concentration, diversity profile, and tenure-salary segmentation.
@@ -65,11 +66,15 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
 ## Data Scope and Preparation
 
 - Data level: employee payroll and workforce records, aggregated for dashboard views.
+- Source dataset: [City of Cincinnati Employees w Salaries](https://data.cincinnati-oh.gov/Efficient-Service-Delivery/City-of-Cincinnati-Employees-w-Salaries/wmj4-ygbf/about_data)
 - Key fields used: location, department, job title, age range, gender, race, annual salary, and `HIRE_DATE`.
 - Data preparation highlights:
   - Standardized category labels for dimensions used in filters and grouping.
   - Built calculated fields for tenure and parameter-driven metric selection.
   - Applied analytical filters to focus on departments with meaningful representation.
+
+!!! note "Data Provenance"
+    Dashboard inputs are based on the official Cincinnati Open Data source linked above. Any filters, calculations, and aggregations shown in Tableau are transformations of that source dataset.
 
 ## Executive Insight Summary
 

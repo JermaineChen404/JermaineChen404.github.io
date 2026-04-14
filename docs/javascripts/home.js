@@ -5,7 +5,7 @@
   if (!homeRoot) return;
 
   const rotatingEl = document.querySelector("[data-rotating-text]");
-  const rotatingWords = ["market intuition", "clear summaries", "exam-ready notes", "faster review"];
+  const rotatingWords = ["market intuition", "clear summaries", "exam-ready notes", "portfolio projects"];
   let rotatingIndex = 0;
 
   if (rotatingEl) {

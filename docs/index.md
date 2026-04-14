@@ -16,6 +16,7 @@ hide:
     <div class="home-cta-row">
       <a class="home-btn home-btn-primary" href="ECON2123/">Start 2025 Fall Notes</a>
       <a class="home-btn home-btn-ghost" href="Market_News/Nov%206th/">Open Latest Market News</a>
+      <a class="home-btn home-btn-ghost" href="Projects/Tableau_Payroll_Visual_Analytics/">View Tableau Project</a>
     </div>
 
     <div class="home-stats">
@@ -40,6 +41,7 @@ hide:
 
     <div class="home-filters" role="tablist" aria-label="Homepage filters">
       <button class="home-filter is-active" data-filter="all" type="button">All</button>
+      <button class="home-filter" data-filter="projects" type="button">Projects</button>
       <button class="home-filter" data-filter="finance" type="button">Finance</button>
       <button class="home-filter" data-filter="econ" type="button">Economics</button>
       <button class="home-filter" data-filter="ops" type="button">Operations</button>
@@ -48,6 +50,13 @@ hide:
     </div>
 
     <div class="home-cards">
+      <article class="home-card home-reveal" data-track="projects ops">
+        <span class="home-card-tag">Projects</span>
+        <h3 class="home-card-title">Tableau Payroll Visual Analytics</h3>
+        <p class="home-card-copy">Interactive dashboard case study covering pay concentration, diversity lenses, and tenure-based clustering.</p>
+        <a class="home-card-link" href="Projects/Tableau_Payroll_Visual_Analytics/">Open case study</a>
+      </article>
+
       <article class="home-card home-reveal" data-track="markets finance">
         <span class="home-card-tag">Markets</span>
         <h3 class="home-card-title">Market News Digest</h3>

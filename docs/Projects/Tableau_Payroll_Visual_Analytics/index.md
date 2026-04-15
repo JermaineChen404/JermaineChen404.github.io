@@ -112,9 +112,9 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
 
 **Decision support:** Reveals payroll composition across demographics and flags age-gender segments with outsized payroll share.
 
-
-
 ### Worksheet 3: Highlight Table - Diversity in Top-Paying Departments
+
+![Worksheet 3 - Highlight Table Snapshot](Worksheet3.png)
 
 - Heatmap crossing **department** (rows) and **race** (columns)
 - Cell color intensity controlled by parameterized metric
@@ -128,9 +128,9 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
 
 **Decision support:** Lets users switch analytical lens instantly and assess diversity profile in high-paying departments.
 
-![Worksheet 3 - Highlight Table Snapshot](Worksheet3.png)
-
 ### Worksheet 4: Scatter Plot - Tenure and Salary Segmentation (Clusters)
+
+![Worksheet 4 - Scatter Plot Snapshot](Worksheet4.png)
 
 - Each point represents a **job title**
 - **X-axis:** Years of Service (calculated from `HIRE_DATE`)
@@ -142,8 +142,6 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
   - Cluster 4: **Executive / Leadership**
 
 **Decision support:** Segments workforce roles by compensation and tenure profile for targeted workforce planning.
-
-![Worksheet 4 - Scatter Plot Snapshot](Worksheet4.png)
 
 ## Skills Demonstrated
 

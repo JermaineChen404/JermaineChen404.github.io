@@ -5,19 +5,19 @@
     - **Audience:** Recruiters, hiring managers, and analytics practitioners
     - **Core Goal:** Turn payroll and workforce data into actionable, decision-ready insights
     - **Tools:** Tableau, calculated fields, table calculations, parameters, clustering
-  - **Dataset Source:** City of Cincinnati Open Data portal
+    - **Dataset Source:** City of Cincinnati Open Data portal
 
 !!! success "Recruiter Snapshot (60 Seconds)"
-  - Built a four-view Tableau dashboard to analyze compensation concentration, diversity profile, and tenure-salary segmentation.
-  - Implemented key analytics features required by coursework: reference line, table calculation, parameter control, calculated fields, and clustering.
-  - Designed views to support practical decisions in hiring strategy, compensation planning, and workforce structure review.
+    - Built a four-view Tableau dashboard to analyze compensation concentration, diversity profile, and tenure-salary segmentation.
+    - Implemented key analytics features required by coursework: reference line, table calculation, parameter control, calculated fields, and clustering.
+    - Designed views to support practical decisions in hiring strategy, compensation planning, and workforce structure review.
 
 !!! warning "Before Publishing Final"
-  If you publish a revised workbook version, update the embed URL and direct link below.
+    If you publish a revised workbook version, update the embed URL and direct link below.
 
 ## Live Dashboard
 
-<div class='tableauPlaceholder' id='tableauVizPayroll' style='position: relative; width: 100%; max-width: 1200px; margin: 0 auto;'>
+<div class='tableauPlaceholder' id='tableauVizPayroll' style='position: relative; width: 100%; margin: 0 auto;'>
   <noscript>
     <a href='https://public.tableau.com/views/isom3330_project_2/CincinnatiWorkforceAnalyticsDashboard?:language=en-US&:display_count=n&:origin=viz_share_link'>
       <img alt='Cincinnati Workforce Analytics Dashboard' src='https://public.tableau.com/static/images/is/isom3330_project_2/CincinnatiWorkforceAnalyticsDashboard/1_rss.png' style='border: none' />
@@ -40,21 +40,35 @@
   </object>
 </div>
 <script type='text/javascript'>
-  var divElement = document.getElementById('tableauVizPayroll');
-  var vizElement = divElement.getElementsByTagName('object')[0];
-  if (divElement.offsetWidth > 500) {
-    vizElement.style.minWidth = '420px';
-    vizElement.style.maxWidth = '100%';
-    vizElement.style.minHeight = '610px';
-    vizElement.style.maxHeight = (divElement.offsetWidth * 0.75) + 'px';
-  } else {
-    vizElement.style.width = '100%';
-    vizElement.style.minHeight = '1150px';
-    vizElement.style.maxHeight = (divElement.offsetWidth * 1.77) + 'px';
-  }
-  var scriptElement = document.createElement('script');
-  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  (function () {
+    var divElement = document.getElementById('tableauVizPayroll');
+    if (!divElement) return;
+
+    var vizElement = divElement.getElementsByTagName('object')[0];
+
+    var setVizSize = function () {
+      var width = divElement.offsetWidth || 900;
+      vizElement.style.width = '100%';
+      vizElement.style.maxWidth = '100%';
+
+      if (width >= 1200) {
+        vizElement.style.height = '760px';
+      } else if (width >= 900) {
+        vizElement.style.height = (width * 0.72) + 'px';
+      } else if (width >= 600) {
+        vizElement.style.height = (width * 0.9) + 'px';
+      } else {
+        vizElement.style.height = (width * 1.5) + 'px';
+      }
+    };
+
+    setVizSize();
+    window.addEventListener('resize', setVizSize);
+
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  })();
 </script>
 
 - Direct link: [Open on Tableau Public](https://public.tableau.com/views/isom3330_project_2/CincinnatiWorkforceAnalyticsDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
@@ -130,44 +144,12 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
 
 **Decision support:** Segments workforce roles by compensation and tenure profile for targeted workforce planning.
 
-## Technical Implementation Proof
-
-| Requirement | Implemented In | Status |
-| --- | --- | --- |
-| At least one reference line | WS2 (Average payroll) | ✅ |
-| At least one table calculation | WS2 (Percent of total payroll) | ✅ |
-| At least one parameter | WS3 (Select Metric) | ✅ |
-| At least one calculated field | WS3 (Metric Value), WS4 (Years of Service) | ✅ |
-| At least one analytics element | WS4 (Clustering) | ✅ |
-
-### Key Calculated Fields
-
-```text
-// Years of Service (continuous)
-DATEDIFF('day', [HIRE_DATE], TODAY()) / 365.25
-```
-
-```text
-// Metric Value (parameter-driven)
-CASE [Select Metric]
-WHEN 'Average Salary' THEN [Avg Salary]
-WHEN 'Median Salary' THEN [Median Salary]
-WHEN 'Employee Count' THEN [Employee Count]
-END
-```
-
 ## Skills Demonstrated
 
 - Translating business questions into dashboard-ready analytical views
 - Building interactive Tableau components (parameters, table calculations, clustering)
 - Designing visuals that balance readability and analytical depth
 - Communicating findings for hiring, compensation, and workforce strategy decisions
-
-## Resume-Ready Impact Bullets
-
-- Designed and delivered an interactive Tableau dashboard with 4 coordinated worksheets for payroll composition, diversity analytics, and tenure-salary segmentation.
-- Implemented advanced Tableau features including parameterized metric switching, percent-of-total table calculations, reference lines, and cluster-based role segmentation.
-- Translated raw workforce records into decision-ready insights for compensation concentration analysis and organizational planning.
 
 ## How to Interact
 
@@ -188,16 +170,3 @@ Add these files to this folder before final release:
 
 Then insert them into this page where needed to provide static preview support for mobile users.
 
-## Final Publish Checklist
-
-1. Confirm embed and direct link open the same dashboard version.
-2. Update both this page and `docs/Projects/index.md` if workbook name/path changes.
-3. Upload static screenshot assets listed above.
-4. Run local build check:
-
-```bash
-cd "Blog/JermaineChen404.github.io"
-python -m mkdocs build
-```
-
-5. Push updates to your feature branch and open a pull request.

@@ -7,14 +7,6 @@
     - **Tools:** Tableau, calculated fields, table calculations, parameters, clustering
     - **Dataset Source:** City of Cincinnati Open Data portal
 
-!!! success "Recruiter Snapshot (60 Seconds)"
-    - Built a four-view Tableau dashboard to analyze compensation concentration, diversity profile, and tenure-salary segmentation.
-    - Implemented key analytics features required by coursework: reference line, table calculation, parameter control, calculated fields, and clustering.
-    - Designed views to support practical decisions in hiring strategy, compensation planning, and workforce structure review.
-
-!!! warning "Before Publishing Final"
-    If you publish a revised workbook version, update the embed URL and direct link below.
-
 ## Live Dashboard
 
 <div class='tableauPlaceholder' id='tableauVizPayroll' style='position: relative; width: 100%; margin: 0 auto;'>
@@ -100,6 +92,7 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
 ## Dashboard Walkthrough
 
 ### Worksheet 1: Treemap - Top 3 Highest-Paid Jobs in Major Locations
+![Worksheet 1 - Treemap Snapshot](Worksheet1.png)
 
 - Top 5 city locations by **employee count**
 - Within each location, top 3 job titles by **average annual salary**
@@ -110,12 +103,16 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
 
 ### Worksheet 2: Bar Chart - Salary Percentile and Composition by Age & Gender
 
+![Worksheet 2 - Bar Chart Snapshot](Worksheet2.png)
+
 - Total annual payroll (in millions) by **age range**
 - Side-by-side bars split by **gender**
 - **Reference line** for average payroll per age group
 - **Table calculation (Percent of Total)** on labels to show each bar's share of total city payroll
 
 **Decision support:** Reveals payroll composition across demographics and flags age-gender segments with outsized payroll share.
+
+
 
 ### Worksheet 3: Highlight Table - Diversity in Top-Paying Departments
 
@@ -131,6 +128,8 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
 
 **Decision support:** Lets users switch analytical lens instantly and assess diversity profile in high-paying departments.
 
+![Worksheet 3 - Highlight Table Snapshot](Worksheet3.png)
+
 ### Worksheet 4: Scatter Plot - Tenure and Salary Segmentation (Clusters)
 
 - Each point represents a **job title**
@@ -143,6 +142,8 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
   - Cluster 4: **Executive / Leadership**
 
 **Decision support:** Segments workforce roles by compensation and tenure profile for targeted workforce planning.
+
+![Worksheet 4 - Scatter Plot Snapshot](Worksheet4.png)
 
 ## Skills Demonstrated
 
@@ -158,15 +159,4 @@ How can payroll, role structure, and diversity metrics be visualized so leaders 
 3. Hover points in Worksheet 4 to inspect cluster-level role characteristics.
 4. Use the treemap and bar chart together to compare where payroll concentration and demographic composition align.
 
-## Publishing Assets Checklist
-
-Add these files to this folder before final release:
-
-- `attachments/dashboard-overview.png`
-- `attachments/ws1-treemap.png`
-- `attachments/ws2-bar-reference-line.png`
-- `attachments/ws3-highlight-parameter.png`
-- `attachments/ws4-cluster-scatter.png`
-
-Then insert them into this page where needed to provide static preview support for mobile users.
 
